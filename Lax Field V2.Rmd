@@ -94,10 +94,13 @@ Goal.Frame = function (Shots.Placement) {
     geom_segment(mapping = aes(x=-1, y=1, xend=1, yend=1), size=5) + #top
     geom_segment(mapping = aes(x=-1, y=1.403, xend=-1, yend=-20), size=6) + #left
     geom_segment(mapping = aes(x=1, y=1.403, xend=1, yend=-20), size=6) + #right
+<<<<<<< HEAD
     geom_segment(mapping = aes(x=-1, xend=1, y=-13.5, yend=-13.5), lty=2) +
     geom_segment(mapping = aes(x=-1, xend=1, y=-6.5, yend=-6.5), lty=2) + 
     geom_segment(mapping = aes(x=-.333, xend=-.333, y=1.4, yend=-20), lty=2) +
     geom_segment(mapping = aes(x=.333, xend=.333, y=1.4, yend=-20), lty=2) +
+=======
+>>>>>>> eee9b5ebbe127bd68a98f4a08b50dc9b5e56a68c
     xlim(-2, 2)
 }
 ```
