@@ -64,23 +64,6 @@ Draw.Full.Lax = function(Ride.Clear) {
     geom_point(mapping = aes(x=Ride.Clear$x, y=Ride.Clear$y, shape = Ride.Clear$Type), show.legend = T, size = 8) +
     scale_shape_manual(values=c(1,5))
 }
-
-Goal.Frame = function (Shots.Placement) {
-  ggplot() +
-    theme(axis.title.x=element_blank(),
-          axis.text.x=element_blank(),
-          axis.ticks.x=element_blank(),
-          axis.ticks.y=element_blank(),
-          axis.title.y=element_blank(),
-          axis.text.y=element_blank(),
-          panel.grid.major = element_blank(),
-          panel.grid.minor = element_blank(),
-          legend.title = element_blank()) +
-    geom_segment(mapping = aes(x=-1, y=1, xend=1, yend=1), size=5) + #top
-    geom_segment(mapping = aes(x=-1, y=1.403, xend=-1, yend=-20), size=6) + #left
-    geom_segment(mapping = aes(x=1, y=1.403, xend=1, yend=-20), size=6) + #right
-    xlim(-2, 2)
-}
 ```
 
 ```{r}
@@ -91,12 +74,6 @@ Ride.Clear = data.frame(x=(c(.25, 1.25, .25, rep(2.5, 3), rep(3.75, 3), .6, rep(
 Draw.Full.Lax(Ride.Clear)
 
 Shots.Placement = data.frame(x=rnorm(20, mean=0, sd=.5), y=rnorm(20, mean=0, sd=.5))
-Goal.Frame()
-
 ```
-
-Things I would love to know
-Offensive sets
-Defensive sets
 
 
