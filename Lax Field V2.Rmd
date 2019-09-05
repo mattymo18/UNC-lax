@@ -79,12 +79,11 @@ Draw.Full.Lax = function(Ride.Clear) {
     geom_segment(mapping = aes(x=4.7, xend=4.7, y=4.8, yend=5.2)) +
     geom_segment(mapping = aes(x=2, xend=3, y=2, yend=2)) +
     geom_segment(mapping = aes(x=2, xend=3, y=8, yend=8)) +
-    #geom_point(mapping = aes(x=2.5, y=5), shape = 4, size = 5) +
     geom_point(mapping = aes(x=Ride.Clear$x, y=Ride.Clear$y, shape = Ride.Clear$Type), show.legend = T, size = 8) +
     scale_shape_manual(values=c(1,5))
 }
 
-Goal.Frame = function (Shots.Placement) {
+Goal.Frame = function () {
   ggplot() +
     theme(axis.title.x=element_blank(),
           axis.text.x=element_blank(),
@@ -150,6 +149,14 @@ Draw.FO = function () {
     geom_segment(mapping = aes(x=2, xend=3, y=6.25, yend=6.25), lty=2) +
     geom_segment(mapping = aes(x=2, xend=3, y=3.75, yend=3.75), lty=2) +
     geom_segment(mapping = aes(x=2, xend=3, y=5, yend=5), lty=2) +
+    geom_label(mapping = aes(x=2.25, y=6.9), label="A") +
+    geom_label(mapping = aes(x=2.75, y=6.9), label="B") +
+    geom_label(mapping = aes(x=2.25, y=5.6), label="C") +
+    geom_label(mapping = aes(x=2.75, y=5.6), label="D") +
+    geom_label(mapping = aes(x=2.25, y=4.4), label="E") +
+    geom_label(mapping = aes(x=2.75, y=4.4), label="F") +
+    geom_label(mapping = aes(x=2.25, y=3.1), label="G") +
+    geom_label(mapping = aes(x=2.75, y=3.1), label="H") +
     scale_shape_manual(values=c(1,5))
 }
 ```
