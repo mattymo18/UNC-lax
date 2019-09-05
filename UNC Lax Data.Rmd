@@ -1,0 +1,16 @@
+---
+title: "Lax Data"
+author: "Matt Johnson"
+date: "9/3/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+```{r}
+Albany.2017 = read.csv("2017 Men's Lacrosse/Albany/Albany2017.csv")
+```
+

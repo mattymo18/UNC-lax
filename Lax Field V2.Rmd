@@ -99,6 +99,15 @@ Goal.Frame = function (Shots.Placement) {
     geom_segment(mapping = aes(x=-1, xend=1, y=-6.5, yend=-6.5), lty=2) + 
     geom_segment(mapping = aes(x=-.333, xend=-.333, y=1.4, yend=-20), lty=2) +
     geom_segment(mapping = aes(x=.333, xend=.333, y=1.4, yend=-20), lty=2) +
+    geom_label(mapping = aes(x=-.666, y=-2.5), label="A") +
+    geom_label(mapping = aes(x=0, y=-2.5), label="B") +
+    geom_label(mapping = aes(x=.666, y=-2.5), label="C") +
+    geom_label(mapping = aes(x=-.666, y=-10), label="D") +
+    geom_label(mapping = aes(x=0, y=-10), label="E") +
+    geom_label(mapping = aes(x=.666, y=-10), label="F") +
+    geom_label(mapping = aes(x=-.666, y=-17.5), label="G") +
+    geom_label(mapping = aes(x=0, y=-17.5), label="H") +
+    geom_label(mapping = aes(x=.666, y=-17.5), label="I") +
     xlim(-2, 2)
 }
 ```
