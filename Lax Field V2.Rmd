@@ -77,6 +77,9 @@ Draw.Full.Lax = function(Ride.Clear) {
     geom_point(mapping = aes(x=4.7, y=5), size = 10, alpha = .5) +
     geom_segment(mapping = aes(x=.3, xend=.3, y=4.8, yend=5.2)) +
     geom_segment(mapping = aes(x=4.7, xend=4.7, y=4.8, yend=5.2)) +
+    geom_segment(mapping = aes(x=2, xend=3, y=2, yend=2)) +
+    geom_segment(mapping = aes(x=2, xend=3, y=8, yend=8)) +
+    #geom_point(mapping = aes(x=2.5, y=5), shape = 4, size = 5) +
     geom_point(mapping = aes(x=Ride.Clear$x, y=Ride.Clear$y, shape = Ride.Clear$Type), show.legend = T, size = 8) +
     scale_shape_manual(values=c(1,5))
 }
@@ -110,6 +113,45 @@ Goal.Frame = function (Shots.Placement) {
     geom_label(mapping = aes(x=.666, y=-17.5), label="I") +
     xlim(-2, 2)
 }
+
+Draw.FO = function () {
+  ggplot() +
+    theme(axis.title.x=element_blank(),
+          axis.text.x=element_blank(),
+          axis.ticks.x=element_blank(),
+          axis.ticks.y=element_blank(),
+          axis.title.y=element_blank(),
+          axis.text.y=element_blank(),
+          panel.grid.major = element_blank(),
+          panel.grid.minor = element_blank(),
+          legend.title = element_blank()) +
+    geom_segment(mapping = aes(x=0, xend=5, y=10, yend=10)) +
+    geom_segment(mapping = aes(x=0, xend=5, y=0, yend=0)) +
+    geom_segment(mapping = aes(x=0, xend=0, y=0, yend=10)) +
+    geom_segment(mapping = aes(x=5, xend=5, y=0, yend=10)) +
+    geom_segment(mapping = aes(x=2.5, xend=2.5, y=0, yend=10)) +
+    geom_segment(mapping = aes(x=3.75, xend=3.75, y=0, yend=10)) +
+    geom_segment(mapping = aes(x= 1.25, xend=1.25, y=0, yend=10)) +
+    geom_segment(mapping = aes(x=0, xend=1.25, y=2, yend=2)) +
+    geom_segment(mapping = aes(x=0, xend=1.25, y=8, yend=8)) +
+    geom_segment(mapping = aes(x=3.75, xend=5, y=2, yend=2)) +
+    geom_segment(mapping = aes(x=3.75, xend=5, y=8, yend=8)) +
+    geom_segment(mapping = aes(x=2, xend=3, y=2, yend=2)) +
+    geom_segment(mapping = aes(x=2, xend=3, y=8, yend=8)) +
+    geom_point(mapping = aes(x=.3, y=5), size = 10, alpha = .5) +
+    geom_point(mapping = aes(x=4.7, y=5), size = 10, alpha = .5) +
+    geom_segment(mapping = aes(x=.3, xend=.3, y=4.8, yend=5.2)) +
+    geom_segment(mapping = aes(x=4.7, xend=4.7, y=4.8, yend=5.2)) +
+    geom_point(mapping = aes(x=2.5, y=5), shape = 4, size = 5) +
+    geom_segment(mapping = aes(x=2, xend=2, y=2.5, yend=7.5), lty=2) +
+    geom_segment(mapping = aes(x=3, xend=3, y=2.5, yend=7.5), lty=2) +
+    geom_segment(mapping = aes(x=2, xend=3, y=2.5, yend=2.5), lty=2) +
+    geom_segment(mapping = aes(x=2, xend=3, y=7.5, yend=7.5), lty=2) +
+    geom_segment(mapping = aes(x=2, xend=3, y=6.25, yend=6.25), lty=2) +
+    geom_segment(mapping = aes(x=2, xend=3, y=3.75, yend=3.75), lty=2) +
+    geom_segment(mapping = aes(x=2, xend=3, y=5, yend=5), lty=2) +
+    scale_shape_manual(values=c(1,5))
+}
 ```
 
 ```{r}
@@ -120,6 +162,8 @@ Draw.Full.Lax(Ride.Clear)
 
 Shots.Placement = data.frame(x=rnorm(20, mean=0, sd=.5), y=rnorm(20, mean=0, sd=.5))
 Goal.Frame()
+
+Draw.FO()
 ```
 
 
