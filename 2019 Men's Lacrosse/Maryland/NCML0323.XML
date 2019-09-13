@@ -1,0 +1,770 @@
+<lcgame source="TAS For Lacrosse" version="1.16.01" generated="3/23/2019">
+  <venue gameid="NCML0323"
+           visid="NC" visname="North Carolina"
+           homeid="UMD" homename="Maryland"
+           date="3/23/2019" location="College Park, Md." stadium="Maryland Stadium"
+           start="4:00 PM" end="6:03 PM" duration="2:03" attend="3757" schednote=""
+           leaguegame="N" neutralgame="N">
+    <officials>
+      <official name="Joe Cieslak"></official>
+      <official name="Jeff Bruso"></official>
+      <official name="Bob Manfuso"></official>
+      <official name="UMD Media Relations"></official>
+    </officials>
+    <rules prds="4" minutes="15" minutesot="4" minminor="30" minmajor="60" minmatch="180" shootoutshot="0" shootoutteam="0"></rules>
+    <show sog="1" turnovers="1" faceoffs="1" penalties="1" clears="1" todetails="0" fouls="0" dcs="0" fpas="0" nll="0" g2="0" reversemin="0"></show>
+  </venue>
+  <status period="4" clock="00:00"></status>
+  <team vh="V" id="NC" name="North Carolina" code="457" record="6-3" rank="16">
+    <linescore periods="4" line="2,1,3,3" score="9" shotline="6,7,10,10" shots="33">
+      <lineprd prd="1" score="2" shots="6" sog="5" saves="1" ppg="0" ppatt="1" fowon="2" pen="0" psec="0"
+               gb="5" dc="0" fpg="0" fps="0" fpa="0" fouls="0" clearm="3" cleara="4" turnover="3"
+               clockv="0" clockw="0" clockg="0" fviol="0"></lineprd>
+      <lineprd prd="2" score="1" shots="7" sog="4" saves="4" ppg="0" ppatt="0" fowon="1" pen="3" psec="120"
+               gb="6" dc="0" fpg="0" fps="0" fpa="0" fouls="0" clearm="3" cleara="3" turnover="2"
+               clockv="0" clockw="0" clockg="0" fviol="1"></lineprd>
+      <lineprd prd="3" score="3" shots="10" sog="6" saves="2" ppg="0" ppatt="0" fowon="1" pen="0" psec="0"
+               gb="5" dc="0" fpg="0" fps="0" fpa="0" fouls="0" clearm="2" cleara="2" turnover="2"
+               clockv="0" clockw="0" clockg="0" fviol="1"></lineprd>
+      <lineprd prd="4" score="3" shots="10" sog="6" saves="0" ppg="0" ppatt="1" fowon="3" pen="3" psec="150"
+               gb="7" dc="0" fpg="0" fps="0" fpa="0" fouls="0" clearm="3" cleara="3" turnover="3"
+               clockv="0" clockw="0" clockg="0" fviol="1"></lineprd>
+    </linescore>
+    <totals>
+      <shots g="9" a="3" sh="33" sog="21" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="6" fg="1" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="6" seconds="270" minor="3" major="3" match="0" rc="0" yc="0" gc="0" foul="0" clockv="0" clockw="0" clockg="0" fviol="3"></penalty>
+      <misc facewon="7" facelost="22" gb="23" dc="0" turnover="10" ct="5" minutes="600" seconds="0" dsave="0"></misc>
+      <goalie minutes="60:00" ga="16" saves="7" sf="38" savebyprd="1,4,2,0" sho="0" cbosho="0" ppg="2" shg="0" eng="0" sog="0"></goalie>
+      <powerplay ppg="0" ppopp="2"></powerplay>
+      <clear clearm="11" cleara="12"></clear>
+    </totals>
+    <player uni="0" name="Jake Peden" checkname="PEDEN,JAKE" class="SR" gp="1" gs="1" pos="d" code="0">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="1" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="1" name="Alex Trippi" checkname="TRIPPI,ALEX" class="SO" gp="1" gs="1" pos="m" code="1">
+      <shots g="2" a="0" sh="2" sog="2" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="2" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="2" name="Jesse Cuccia" checkname="CUCCIA,JESSE" class="SR" gp="0" code="2"></player>
+    <player uni="3" name="William Perry" checkname="PERRY,WILLIAM" class="JR" gp="1" code="3">
+      <shots g="0" a="0" sh="7" sog="4" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="1" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="4" name="Jack Halpert" checkname="HALPERT,JACK" class="SR" gp="1" code="4">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="1" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="5" name="Nicky Solomon" checkname="SOLOMON,NICKY" class="FR" gp="1" gs="1" pos="a" code="5">
+      <shots g="1" a="1" sh="5" sog="2" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="1" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="2" dc="0" turnover="2" ct="1" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="6" name="Mike Guerin" checkname="GUERIN,MIKE" class="JR" gp="0" code="6"></player>
+    <player uni="7" name="Zach Kissick" checkname="KISSICK,ZACH" class="JR" gp="0" code="7"></player>
+    <player uni="8" name="Jordan Prysko" checkname="PRYSKO,JORDAN" class="SR" gp="1" code="8">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="9" name="Jacob Kelly" checkname="KELLY,JACOB" class="FR" gp="1" gs="1" pos="a" code="9">
+      <shots g="1" a="0" sh="4" sog="2" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="1" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="1" seconds="60" minor="0" major="1" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="1" dc="0" turnover="0" ct="0" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="11" name="Luke Millican" checkname="MILLICAN,LUKE" class="SO" gp="0" code="11"></player>
+    <player uni="12" name="Andy Matthews" checkname="MATTHEWS,ANDY" class="SR" gp="1" gs="1" pos="a" code="12">
+      <shots g="1" a="2" sh="2" sog="2" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="1" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="1" seconds="60" minor="0" major="1" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="2" dc="0" turnover="2" ct="0" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="15" name="Timmy Kelly" checkname="KELLY,TIMMY" class="SR" gp="1" gs="1" pos="m" code="15">
+      <shots g="4" a="0" sh="6" sog="5" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="1" fg="1" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="1" ct="0" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="16" name="Sean Morris" checkname="MORRIS,SEAN" class="SO" gp="0" code="16"></player>
+    <player uni="17" name="Ryan O'Connell" checkname="O'CONNELL,RYAN" class="SO" gp="1" code="17">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc facewon="4" facelost="3" gb="3" dc="0" turnover="1" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="19" name="Brian Cameron" checkname="CAMERON,BRIAN" class="FR" gp="1" code="19">
+      <shots g="0" a="0" sh="1" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="1" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="20" name="Will Bowen" checkname="BOWEN,WILL" class="FR" gp="0" code="20"></player>
+    <player uni="21" name="Justin Anderson" checkname="ANDERSON,JUSTIN" class="JR" gp="1" gs="1" pos="m" code="21">
+      <shots g="0" a="0" sh="2" sog="1" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="2" seconds="60" minor="2" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="1" dc="0" turnover="0" ct="0" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="22" name="Jack Rowlett" checkname="ROWLETT,JACK" class="SR" gp="1" gs="1" pos="d" code="22">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="1" seconds="60" minor="0" major="1" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc facewon="0" facelost="2" gb="3" dc="0" turnover="0" ct="2" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="23" name="Parker Alexander" checkname="ALEXANDER,PARKER" class="SO" gp="1" code="23">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="1" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="24" name="Ara Atayan" checkname="ATAYAN,ARA" class="SO" gp="0" code="24"></player>
+    <player uni="25" name="Caton Johnson" checkname="JOHNSON,CATON" class="FR" gp="0" code="25"></player>
+    <player uni="26" name="Charles Kelly" checkname="KELLY,CHARLES" class="SR" gp="1" code="26">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc facewon="0" facelost="2" gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="28" name="Cam Macri" checkname="MACRI,CAM" class="JR" gp="1" code="28">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="1" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="29" name="Patrick Lyons" checkname="LYONS,PATRICK" class="JR" gp="0" code="29"></player>
+    <player uni="30" name="Bailey Laidman" checkname="LAIDMAN,BAILEY" class="SO" gp="0" code="30"></player>
+    <player uni="31" name="Connor Maher" checkname="MAHER,CONNOR" class="FR" gp="1" code="31">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="1" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="32" name="Matt Gavin" checkname="GAVIN,MATT" class="JR" gp="1" code="32">
+      <shots g="0" a="0" sh="2" sog="1" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="1" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="33" name="Kyle Kolwich" checkname="KOLWICH,KYLE" class="SO" gp="0" code="33"></player>
+    <player uni="34" name="Will Nicklaus" checkname="NICKLAUS,WILL" class="FR" gp="0" code="34"></player>
+    <player uni="35" name="Zachary Tucci" checkname="TUCCI,ZACHARY" class="FR" gp="1" code="35">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc facewon="3" facelost="15" gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="36" name="Paddy Sheehan" checkname="SHEEHAN,PADDY" class="SR" gp="0" code="36"></player>
+    <player uni="37" name="Chris Nicholas" checkname="NICHOLAS,CHRIS" class="FR" gp="0" code="37"></player>
+    <player uni="39" name="Nate Miller" checkname="MILLER,NATE" class="SO" gp="0" code="39"></player>
+    <player uni="40" name="Cole Haverty" checkname="HAVERTY,COLE" class="SR" gp="0" code="40"></player>
+    <player uni="41" name="Colin Munro" checkname="MUNRO,COLIN" class="SO" gp="0" code="41"></player>
+    <player uni="42" name="Jack Pezzulla" checkname="PEZZULLA,JACK" class="JR" gp="0" code="42"></player>
+    <player uni="43" name="Michael Nathan" checkname="NATHAN,MICHAEL" class="SR" gp="1" gs="1" pos="d" code="43">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="1" dc="0" turnover="1" ct="1" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="44" name="Henry Schertzinger" checkname="SCHERTZINGER,HENRY" class="FR" gp="1" code="44">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="45" name="Ha. Schertzinger" checkname="SCHERTZINGER,HA" class="FR" gp="1" code="45">
+      <shots g="0" a="0" sh="1" sog="1" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="1" seconds="30" minor="1" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="46" name="Alex Helms" checkname="HELMS,ALEX" class="SO" gp="0" code="46"></player>
+    <player uni="47" name="Kevin Gill" checkname="GILL,KEVIN" class="SO" gp="0" code="47"></player>
+    <player uni="48" name="Alex Bassil" checkname="BASSIL,ALEX" class="SR" gp="1" gs="1" pos="g" code="48">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="4" dc="0" turnover="0" ct="0" minutes="60" seconds="0" dsave="0"></misc>
+      <goalie gp="1" gs="1" minutes="60:00" ga="16" saves="7" sf="38" savebyprd="1,4,2,0" loss="6-3" sho="0" cbosho="0" ppg="2" shg="0" eng="0" sog="0"></goalie>
+    </player>
+    <player uni="49" name="Matt McLaughlin" checkname="MCLAUGHLIN,MATT" class="SO" gp="0" code="49"></player>
+    <player uni="50" name="Kevin Walker" checkname="WALKER,KEVIN" class="SR" gp="1" code="50">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="1" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="52" name="Patrick Sasser" checkname="SASSER,PATRICK" class="SO" gp="0" code="52"></player>
+    <player uni="55" name="Cole Brown" checkname="BROWN,COLE" class="FR" gp="0" code="55"></player>
+    <player uni="66" name="Will Robbins" checkname="ROBBINS,WILL" class="FR" gp="0" code="66"></player>
+    <player uni="77" name="Tanner Cook" checkname="COOK,TANNER" class="JR" gp="1" code="77">
+      <shots g="0" a="0" sh="1" sog="1" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="88" name="Evan Egan" checkname="EGAN,EVAN" class="FR" gp="0" code="88"></player>
+    <player uni="99" name="Tyler Seminetta" checkname="SEMINETTA,TYLER" class="JR" gp="0" code="99"></player>
+    <player uni="TM" name="TEAM" checkname="TEAM" class="" gp="1" code="TM">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="1" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+  </team>
+  <team vh="H" id="UMD" name="Maryland" code="392" record="8-1" rank="4">
+    <linescore periods="4" line="4,7,4,1" score="16" shotline="12,12,10,4" shots="38">
+      <lineprd prd="1" score="4" shots="12" sog="5" saves="3" ppg="0" ppatt="0" fowon="5" pen="1" psec="30"
+               gb="5" dc="0" fpg="0" fps="0" fpa="0" fouls="0" clearm="6" cleara="7" turnover="4"
+               clockv="1" clockw="0" clockg="0" fviol="0"></lineprd>
+      <lineprd prd="2" score="7" shots="12" sog="11" saves="3" ppg="2" ppatt="3" fowon="8" pen="0" psec="0"
+               gb="9" dc="0" fpg="0" fps="0" fpa="0" fouls="0" clearm="3" cleara="4" turnover="3"
+               clockv="0" clockw="0" clockg="0" fviol="0"></lineprd>
+      <lineprd prd="3" score="4" shots="10" sog="6" saves="3" ppg="0" ppatt="0" fowon="7" pen="0" psec="0"
+               gb="7" dc="0" fpg="0" fps="0" fpa="0" fouls="0" clearm="2" cleara="2" turnover="5"
+               clockv="1" clockw="0" clockg="0" fviol="0"></lineprd>
+      <lineprd prd="4" score="1" shots="4" sog="1" saves="3" ppg="0" ppatt="3" fowon="2" pen="1" psec="30"
+               gb="3" dc="0" fpg="0" fps="0" fpa="0" fouls="0" clearm="4" cleara="5" turnover="7"
+               clockv="1" clockw="0" clockg="0" fviol="1"></lineprd>
+    </linescore>
+    <totals>
+      <shots g="16" a="13" sh="38" sog="23" freepos="0" shootout="0"></shots>
+      <goaltype gw="1" pp="2" sh="0" ua="3" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="2" seconds="60" minor="2" major="0" match="0" rc="0" yc="0" gc="0" foul="0" clockv="3" clockw="0" clockg="0" fviol="1"></penalty>
+      <misc facewon="22" facelost="7" gb="24" dc="0" turnover="19" ct="0" minutes="599" seconds="60" dsave="0"></misc>
+      <goalie minutes="60:00" ga="9" saves="12" sf="33" savebyprd="3,3,3,3" sho="0" cbosho="0" ppg="0" shg="0" eng="0" sog="0"></goalie>
+      <powerplay ppg="2" ppopp="6"></powerplay>
+      <clear clearm="15" cleara="18"></clear>
+    </totals>
+    <player uni="1" name="Jared Bernhardt" checkname="BERNHARDT,JARED" class="JR" gp="1" gs="1" pos="a" code="1">
+      <shots g="3" a="1" sh="6" sog="5" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="1" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="1" dc="0" turnover="2" ct="0" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="2" name="Bubba Fairman" checkname="FAIRMAN,BUBBA" class="SO" gp="1" gs="1" pos="m" code="2">
+      <shots g="0" a="3" sh="3" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="2" seconds="60" minor="2" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="1" dc="0" turnover="1" ct="0" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="3" name="Justin Shockey" checkname="SHOCKEY,JUSTIN" class="SO" gp="1" code="3">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc facewon="0" facelost="3" gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="4" name="Ethan Mintzer" checkname="MINTZER,ETHAN" class="JR" gp="0" code="4"></player>
+    <player uni="5" name="Will Snider" checkname="SNIDER,WILL" class="SR" gp="1" gs="1" pos="m" code="5">
+      <shots g="1" a="2" sh="4" sog="1" freepos="0" shootout="0"></shots>
+      <goaltype gw="1" pp="1" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="1" ct="0" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="6" name="Steven Shollenberger" checkname="SHOLLENBERGER,STEVEN" class="JR" gp="0" code="6"></player>
+    <player uni="7" name="Matt Rahill" checkname="RAHILL,MATT" class="SO" gp="1" code="7">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="3" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="8" name="Roman Puglise" checkname="PUGLISE,ROMAN" class="FR" gp="1" code="8">
+      <shots g="0" a="0" sh="1" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="3" dc="0" turnover="3" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="9" name="Tyler Rockhill" checkname="ROCKHILL,TYLER" class="JR" gp="0" code="9"></player>
+    <player uni="10" name="Matt McIlroy" checkname="MCILROY,MATT" class="JR" gp="0" code="10"></player>
+    <player uni="11" name="Thomas O'Connell" checkname="O'CONNELL,THOMAS" class="SR" gp="1" code="11">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="12" name="Logan Wisnauskas" checkname="WISNAUSKAS,LOGAN" class="SO" gp="1" gs="1" pos="a" code="12">
+      <shots g="4" a="4" sh="8" sog="5" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="1" ct="0" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="13" name="Jack Welding" checkname="WELDING,JACK" class="JR" gp="1" gs="1" pos="d" code="13">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="14" name="Danny Dolan" checkname="DOLAN,DANNY" class="SR" gp="1" gs="1" pos="g" code="14">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="59" seconds="12" dsave="0"></misc>
+      <goalie gp="1" gs="1" minutes="59:12" ga="9" saves="12" sf="33" savebyprd="3,3,3,3" win="8-1" sho="0" cbosho="0" ppg="0" shg="0" eng="0" sog="0"></goalie>
+    </player>
+    <player uni="15" name="Kyle Berkeley" checkname="BERKELEY,KYLE" class="SO" gp="0" code="15"></player>
+    <player uni="16" name="Anthony DeMaio" checkname="DEMAIO,ANTHONY" class="SO" gp="1" gs="1" pos="m" code="16">
+      <shots g="4" a="1" sh="6" sog="6" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="2" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="1" ct="0" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="17" name="Austin Henningsen" checkname="HENNINGSEN,AUSTIN" class="SR" gp="1" code="17">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc facewon="22" facelost="4" gb="8" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="18" name="Andrew Morris" checkname="MORRIS,ANDREW" class="SO" gp="1" code="18">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="48" dsave="0"></misc>
+      <goalie gp="1" gs="0" minutes="0:48" ga="0" saves="0" sf="0" savebyprd="0,0,0,0" sho="0" cbosho="0" ppg="0" shg="0" eng="0" sog="0"></goalie>
+    </player>
+    <player uni="19" name="Zach Pinney" checkname="PINNEY,ZACH" class="SR" gp="0" code="19"></player>
+    <player uni="22" name="Wesley Janeck" checkname="JANECK,WESLEY" class="SR" gp="1" code="22">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="3" dc="0" turnover="2" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="23" name="Kyle Long" checkname="LONG,KYLE" class="FR" gp="1" code="23">
+      <shots g="1" a="2" sh="3" sog="2" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="1" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="1" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="24" name="Nick Brozowski" checkname="BROZOWSKI,NICK" class="SR" gp="1" code="24">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="25" name="Chase Cope" checkname="COPE,CHASE" class="FR" gp="1" code="25">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="26" name="Dean Draughn" checkname="DRAUGHN,DEAN" class="FR" gp="0" code="26"></player>
+    <player uni="27" name="Christian Zawadzki" checkname="ZAWADZKI,CHRISTIAN" class="SR" gp="1" code="27">
+      <shots g="0" a="0" sh="2" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="1" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="28" name="Joshua Coffman" checkname="COFFMAN,JOSHUA" class="FR" gp="1" code="28">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="29" name="Peyton Bogard" checkname="BOGARD,PEYTON" class="SO" gp="0" code="29"></player>
+    <player uni="30" name="Cameron Brosh" checkname="BROSH,CAMERON" class="SR" gp="0" code="30"></player>
+    <player uni="31" name="Jake Martellucci" checkname="MARTELLUCCI,JAKE" class="SO" gp="0" code="31"></player>
+    <player uni="32" name="Louis Dubick" checkname="DUBICK,LOUIS" class="SR" gp="1" gs="1" pos="a" code="32">
+      <shots g="3" a="0" sh="5" sog="4" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="33" name="James Avanzato" checkname="AVANZATO,JAMES" class="SO" gp="0" code="33"></player>
+    <player uni="36" name="Blake Carrara" checkname="CARRARA,BLAKE" class="JR" gp="1" code="36">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="37" name="Colin Miller" checkname="MILLER,COLIN" class="SO" gp="0" code="37"></player>
+    <player uni="38" name="Jack DeSantis" checkname="DESANTIS,JACK" class="FR" gp="1" code="38">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="39" name="Alex Smith" checkname="SMITH,ALEX" class="SO" gp="1" code="39">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="1" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="40" name="Kyle Brickerd" checkname="BRICKERD,KYLE" class="SO" gp="1" code="40">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="42" name="Curtis Corley" checkname="CORLEY,CURTIS" class="SR" gp="1" gs="1" pos="d" code="42">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="1" dc="0" turnover="0" ct="0" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="43" name="Brett Makar" checkname="MAKAR,BRETT" class="FR" gp="1" gs="1" pos="d" code="43">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="1" dc="0" turnover="2" ct="0" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="44" name="Russell Masci" checkname="MASCI,RUSSELL" class="JR" gp="1" code="44">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="1" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="45" name="Noah Cash" checkname="CASH,NOAH" class="FR" gp="0" code="45"></player>
+    <player uni="46" name="William Plansky" checkname="PLANSKY,WILLIAM" class="FR" gp="0" code="46"></player>
+    <player uni="47" name="Andrew Florenzo" checkname="FLORENZO,ANDREW" class="FR" gp="0" code="47"></player>
+    <player uni="48" name="Jake Smith" checkname="SMITH,JAKE" class="FR" gp="1" code="48">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="49" name="Michael Chiaramonte" checkname="CHIARAMONTE,MICHAEL" class="SO" gp="1" code="49">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="1" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="50" name="John Geppert" checkname="GEPPERT,JOHN" class="FR" gp="1" code="50">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="51" name="Max Verch" checkname="VERCH,MAX" class="FR" gp="0" code="51"></player>
+    <player uni="53" name="Drew Harrison" checkname="HARRISON,DREW" class="JR" gp="0" code="53"></player>
+    <player uni="55" name="Nicholas DeMaio" checkname="DEMAIO,NICHOLAS" class="FR" gp="0" code="55"></player>
+    <player uni="TM" name="TEAM" checkname="TEAM" class="" gp="1" code="TM">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="4" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+  </team>
+  <scores>
+    <score number="1" vh="V" id="NC" prd="1" time="13:44" type="EV"
+           name="Timmy Kelly" seasong="10"></score>
+    <score number="2" vh="H" id="UMD" prd="1" time="12:20" type="EV"
+           name="Anthony DeMaio" seasong="11"></score>
+    <score number="3" vh="H" id="UMD" prd="1" time="05:20" type="EV"
+           name="Anthony DeMaio" seasong="12" assist1="Logan Wisnauskas" seasona1="17"></score>
+    <score number="4" vh="H" id="UMD" prd="1" time="04:32" type="EV"
+           name="Anthony DeMaio" seasong="13" assist1="Logan Wisnauskas" seasona1="18"></score>
+    <score number="5" vh="V" id="NC" prd="1" time="03:58" type="EV"
+           name="Jacob Kelly" seasong="10"></score>
+    <score number="6" vh="H" id="UMD" prd="1" time="00:08" type="EV"
+           name="Logan Wisnauskas" seasong="23" assist1="Will Snider" seasona1="2"></score>
+    <score number="7" vh="H" id="UMD" prd="2" time="14:04" type="EV"
+           name="Logan Wisnauskas" seasong="24" assist1="Anthony DeMaio" seasona1="11"></score>
+    <score number="8" vh="H" id="UMD" prd="2" time="12:29" type="PP"
+           name="Jared Bernhardt" seasong="25" assist1="Bubba Fairman" seasona1="10"></score>
+    <score number="9" vh="H" id="UMD" prd="2" time="11:21" type="EV"
+           name="Louis Dubick" seasong="17" assist1="Logan Wisnauskas" seasona1="19"></score>
+    <score number="10" vh="H" id="UMD" prd="2" time="10:18" type="EV"
+           name="Jared Bernhardt" seasong="26" assist1="Bubba Fairman" seasona1="11"></score>
+    <score number="11" vh="V" id="NC" prd="2" time="05:58" type="EV"
+           name="Alex Trippi" seasong="8"></score>
+    <score number="12" vh="H" id="UMD" prd="2" time="05:15" type="EV"
+           name="Logan Wisnauskas" seasong="25" assist1="Jared Bernhardt" seasona1="17"></score>
+    <score number="13" vh="H" id="UMD" prd="2" time="01:29" type="PP"
+           name="Will Snider" seasong="6" assist1="Logan Wisnauskas" seasona1="20"></score>
+    <score number="14" vh="H" id="UMD" prd="2" time="00:19" type="EV"
+           name="Louis Dubick" seasong="18" assist1="Kyle Long" seasona1="8"></score>
+    <score number="15" vh="V" id="NC" prd="3" time="13:33" type="EV"
+           name="Timmy Kelly" seasong="11" assist1="Andy Matthews" seasona1="13"></score>
+    <score number="16" vh="V" id="NC" prd="3" time="10:44" type="EV"
+           name="Timmy Kelly" seasong="12" assist1="Nicky Solomon" seasona1="7"></score>
+    <score number="17" vh="H" id="UMD" prd="3" time="09:02" type="EV"
+           name="Kyle Long" seasong="5"></score>
+    <score number="18" vh="H" id="UMD" prd="3" time="05:35" type="EV"
+           name="Jared Bernhardt" seasong="27" assist1="Will Snider" seasona1="3"></score>
+    <score number="19" vh="V" id="NC" prd="3" time="03:29" type="EV"
+           name="Alex Trippi" seasong="9"></score>
+    <score number="20" vh="H" id="UMD" prd="3" time="02:03" type="EV"
+           name="Logan Wisnauskas" seasong="26" assist1="Bubba Fairman" seasona1="12"></score>
+    <score number="21" vh="H" id="UMD" prd="3" time="01:14" type="EV"
+           name="Louis Dubick" seasong="19" assist1="Kyle Long" seasona1="9"></score>
+    <score number="22" vh="V" id="NC" prd="4" time="14:02" type="EV"
+           name="Timmy Kelly" seasong="13" assist1="Andy Matthews" seasona1="14"></score>
+    <score number="23" vh="V" id="NC" prd="4" time="13:36" type="EV"
+           name="Nicky Solomon" seasong="12"></score>
+    <score number="24" vh="V" id="NC" prd="4" time="12:03" type="EV"
+           name="Andy Matthews" seasong="10"></score>
+    <score number="25" vh="H" id="UMD" prd="4" time="02:34" type="EV"
+           name="Anthony DeMaio" seasong="14"></score>
+  </scores>
+  <penalties>
+    <pen number="1" vh="H" id="UMD" prd="1" time="10:29" pp="Y" type="MINOR" seconds="30" name="Bubba Fairman" abbrev="HOLD" desc="HOLDING"></pen>
+    <pen number="2" vh="V" id="NC" prd="2" time="13:20" pp="Y" type="MAJOR" seconds="60" name="Jacob Kelly" abbrev="SL" desc="SLASHING"></pen>
+    <pen number="3" vh="V" id="NC" prd="2" time="07:25" pp="Y" type="MINOR" seconds="30" name="Justin Anderson" abbrev="HOLD" desc="HOLDING"></pen>
+    <pen number="4" vh="V" id="NC" prd="2" time="01:50" pp="Y" type="MINOR" seconds="30" name="Ha. Schertzinger" abbrev="HOLD" desc="HOLDING"></pen>
+    <pen number="5" vh="V" id="NC" prd="4" time="11:40" pp="Y" type="MAJOR" seconds="60" name="Andy Matthews" abbrev="CCHK" desc="CROSS-CHECK"></pen>
+    <pen number="6" vh="H" id="UMD" prd="4" time="10:46" pp="Y" type="MINOR" seconds="30" name="Bubba Fairman" abbrev="HOLD" desc="HOLDING"></pen>
+    <pen number="7" vh="V" id="NC" prd="4" time="06:59" pp="Y" type="MINOR" seconds="30" name="Justin Anderson" abbrev="PUSH" desc="PUSHING"></pen>
+    <pen number="8" vh="V" id="NC" prd="4" time="00:48" pp="Y" type="MAJOR" seconds="60" name="Jack Rowlett" abbrev="TRIP" desc="TRIPPING"></pen>
+  </penalties>
+  <goaliechanges>
+    <goaliechange vh="V" id="NC" prd="1" time="15:00" uni="48" name="Alex Bassil"></goaliechange>
+    <goaliechange vh="H" id="UMD" prd="1" time="15:00" uni="14" name="Danny Dolan"></goaliechange>
+    <goaliechange vh="H" id="UMD" prd="4" time="00:48" uni="18" name="Andrew Morris"></goaliechange>
+  </goaliechanges>
+  <plays format="summary">
+    <period number="1">
+      <play number="0" vh="V" team="NC" clock="15:00" action="GOALIE" text="Alex Bassil at goalie for NC."></play>
+      <play number="1" vh="H" team="UMD" clock="15:00" action="GOALIE" text="Danny Dolan at goalie for UMD."></play>
+      <play number="2" vh="V" team="NC" clock="15:00" action="FACE" text="Faceoff Zachary Tucci vs Austin Henningsen won by NC, [15:00] Ground ball pickup by NC Jack Halpert."></play>
+      <play number="3" vh="V" team="NC" clock="13:44" action="SHOT" text="GOAL by NC Timmy Kelly (FIRST GOAL), goal number 10 for season."></play>
+      <currentscore vscore="1" hscore="0"></currentscore>
+      <play number="4" vh="H" team="UMD" clock="13:44" action="FACE" text="Faceoff Zachary Tucci vs Austin Henningsen won by UMD, [13:44] Ground ball pickup by UMD Austin Henningsen."></play>
+      <play number="5" vh="H" team="UMD" clock="13:03" action="SHOT" text="Shot by UMD Jared Bernhardt WIDE LEFT."></play>
+      <play number="6" vh="H" team="UMD" clock="12:42" action="SHOT" text="Shot by UMD Will Snider WIDE RIGHT."></play>
+      <play number="7" vh="H" team="UMD" clock="12:20" action="SHOT" text="GOAL by UMD Anthony DeMaio, goal number 11 for season."></play>
+      <currentscore vscore="1" hscore="1"></currentscore>
+      <play number="8" vh="H" team="UMD" clock="12:13" action="FACE" text="Faceoff Zachary Tucci vs Austin Henningsen won by UMD."></play>
+      <play number="9" vh="H" team="UMD" clock="11:36" action="SHOT" text="Shot by UMD Logan Wisnauskas BLOCKED."></play>
+      <play number="10" vh="H" team="UMD" clock="11:29" action="GB" text="Ground ball pickup by UMD Jared Bernhardt."></play>
+      <play number="11" vh="H" team="UMD" clock="11:11" action="SHOT" text="Shot by UMD Kyle Long BLOCKED."></play>
+      <play number="12" vh="V" team="NC" clock="11:06" action="GB" text="Ground ball pickup by NC Alex Bassil."></play>
+      <play number="13" vh="V" team="NC" clock="10:54" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="14" vh="V" team="NC" clock="10:47" action="TURN" text="Turnover by NC Matt Gavin."></play>
+      <play number="15" vh="H" team="UMD" clock="10:42" action="CLEAR" text="Clear attempt by UMD good."></play>
+      <play number="16" vh="H" team="UMD" clock="10:41" action="SHOT" text="Shot by UMD Jared Bernhardt, SAVE Alex Bassil."></play>
+      <play number="17" vh="V" team="NC" clock="10:36" action="GB" text="Ground ball pickup by NC Alex Bassil."></play>
+      <play number="18" vh="H" team="UMD" clock="10:29" action="PEN" text="Penalty on UMD Bubba Fairman (HOLDING/0:30) Extra-man opportunity."></play>
+      <play number="19" vh="V" team="NC" clock="10:26" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="20" vh="V" team="NC" clock="10:02" action="SHOT" text="Shot by NC William Perry, SAVE Danny Dolan."></play>
+      <play number="21" vh="H" team="UMD" clock="09:49" action="CLEAR" text="Clear attempt by UMD good."></play>
+      <play number="22" vh="H" team="UMD" clock="09:12" action="SHOT" text="Shot by UMD Bubba Fairman BLOCKED."></play>
+      <play number="23" vh="H" team="UMD" clock="08:46" action="TURN" text="Turnover by UMD Will Snider."></play>
+      <play number="24" vh="V" team="NC" clock="08:43" action="GB" text="Ground ball pickup by NC Connor Maher."></play>
+      <play number="25" vh="V" team="NC" clock="08:37" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="26" vh="V" team="NC" clock="08:11" action="SHOT" text="Shot by NC Justin Anderson, SAVE Danny Dolan."></play>
+      <play number="27" vh="H" team="UMD" clock="07:56" action="CLEAR" text="Clear attempt by UMD failed."></play>
+      <play number="28" vh="H" team="UMD" clock="07:51" action="CLEAR" text="Clear attempt by UMD good."></play>
+      <play number="29" vh="H" team="UMD" clock="06:59" action="SHOT" text="Shot by UMD Christian Zawadzki BLOCKED."></play>
+      <play number="30" vh="H" team="UMD" clock="06:31" action="CLOCKV" text="Shot clock violation by UMD."></play>
+      <play number="31" vh="V" team="NC" clock="06:28" action="CLEAR" text="Clear attempt by NC failed."></play>
+      <play number="32" vh="V" team="NC" clock="06:27" action="TURN" text="Turnover by NC Parker Alexander."></play>
+      <play number="33" vh="H" team="UMD" clock="05:56" action="CLEAR" text="Clear attempt by UMD good."></play>
+      <play number="34" vh="H" team="UMD" clock="05:20" action="SHOT" text="GOAL by UMD Anthony DeMaio, Assist by Logan Wisnauskas, goal number 12 for season."></play>
+      <currentscore vscore="1" hscore="2"></currentscore>
+      <play number="35" vh="H" team="UMD" clock="05:20" action="TOUT" text="Media timeout."></play>
+      <play number="36" vh="H" team="UMD" clock="05:19" action="FACE" text="Faceoff Zachary Tucci vs Austin Henningsen won by UMD, [05:19] Ground ball pickup by UMD Roman Puglise."></play>
+      <play number="37" vh="H" team="UMD" clock="04:32" action="SHOT" text="GOAL by UMD Anthony DeMaio, Assist by Logan Wisnauskas, goal number 13 for season."></play>
+      <currentscore vscore="1" hscore="3"></currentscore>
+      <play number="38" vh="H" team="UMD" clock="04:32" action="FACE" text="Faceoff Zachary Tucci vs Austin Henningsen won by UMD, [04:32] Ground ball pickup by UMD Wesley Janeck."></play>
+      <play number="39" vh="H" team="UMD" clock="04:01" action="TURN" text="Turnover by UMD Wesley Janeck."></play>
+      <play number="40" vh="V" team="NC" clock="03:59" action="GB" text="Ground ball pickup by NC Jacob Kelly."></play>
+      <play number="41" vh="V" team="NC" clock="03:58" action="SHOT" text="GOAL by NC Jacob Kelly, goal number 10 for season."></play>
+      <currentscore vscore="2" hscore="3"></currentscore>
+      <play number="42" vh="V" team="NC" clock="03:58" action="FACE" text="Faceoff Zachary Tucci vs Austin Henningsen won by NC."></play>
+      <play number="43" vh="V" team="NC" clock="03:26" action="SHOT" text="Shot by NC Jacob Kelly WIDE LEFT."></play>
+      <play number="44" vh="V" team="NC" clock="03:02" action="TURN" text="Turnover by NC Andy Matthews."></play>
+      <play number="45" vh="H" team="UMD" clock="02:56" action="GB" text="Ground ball pickup by UMD Matt Rahill."></play>
+      <play number="46" vh="H" team="UMD" clock="02:53" action="CLEAR" text="Clear attempt by UMD good."></play>
+      <play number="47" vh="H" team="UMD" clock="02:13" action="TURN" text="Turnover by UMD Roman Puglise."></play>
+      <play number="48" vh="V" team="NC" clock="01:27" action="SHOT" text="Shot by NC Matt Gavin, SAVE Danny Dolan."></play>
+      <play number="49" vh="H" team="UMD" clock="01:15" action="CLEAR" text="Clear attempt by UMD good."></play>
+      <play number="50" vh="H" team="UMD" clock="00:08" action="SHOT" text="GOAL by UMD Logan Wisnauskas, Assist by Will Snider, goal number 23 for season."></play>
+      <currentscore vscore="2" hscore="4"></currentscore>
+      <play number="51" vh="H" team="UMD" clock="00:08" action="FACE" text="Faceoff Zachary Tucci vs Austin Henningsen won by UMD."></play>
+      <play number="52" vh="H" team="UMD" clock="00:04" action="SHOT" text="Shot by UMD Roman Puglise WIDE LEFT."></play>
+      <play number="53" clock="00:00" action="END-PRD" text="End-of-period."></play>
+    </period>
+    <period number="2">
+      <play number="54" clock="15:00" action="PRD" text=""></play>
+      <play number="55" vh="H" team="UMD" clock="15:00" action="FACE" text="Faceoff Zachary Tucci vs Austin Henningsen won by UMD, [15:00] Ground ball pickup by UMD Curtis Corley."></play>
+      <play number="56" vh="H" team="UMD" clock="14:04" action="SHOT" text="GOAL by UMD Logan Wisnauskas, Assist by Anthony DeMaio, goal number 24 for season."></play>
+      <currentscore vscore="2" hscore="5"></currentscore>
+      <play number="57" vh="V" team="NC" clock="14:04" action="FACE" text="Faceoff Zachary Tucci vs Austin Henningsen won by NC, [14:04] Ground ball pickup by NC Michael Nathan."></play>
+      <play number="58" vh="V" team="NC" clock="13:30" action="TURN" text="Turnover by NC Michael Nathan."></play>
+      <play number="59" vh="H" team="UMD" clock="13:27" action="GB" text="Ground ball pickup by UMD Michael Chiaramonte."></play>
+      <play number="60" vh="H" team="UMD" clock="13:23" action="CLEAR" text="Clear attempt by UMD good."></play>
+      <play number="61" vh="V" team="NC" clock="13:20" action="PEN" text="Penalty on NC Jacob Kelly (SLASHING/1:00) Extra-man opportunity."></play>
+      <play number="62" vh="H" team="UMD" clock="12:29" action="SHOT" text="GOAL by UMD Jared Bernhardt (MAN-UP), Assist by Bubba Fairman, goal number 25 for season."></play>
+      <currentscore vscore="2" hscore="6"></currentscore>
+      <play number="63" vh="H" team="UMD" clock="12:29" action="FACE" text="Faceoff Zachary Tucci vs Austin Henningsen won by UMD, [12:29] Ground ball pickup by UMD Matt Rahill."></play>
+      <play number="64" vh="H" team="UMD" clock="12:05" action="TURN" text="Turnover by UMD Brett Makar (caused by Jake Peden)."></play>
+      <play number="65" vh="V" team="NC" clock="12:00" action="GB" text="Ground ball pickup by NC Jack Rowlett."></play>
+      <play number="66" vh="V" team="NC" clock="11:55" action="GB" text="Ground ball pickup by NC Nicky Solomon."></play>
+      <play number="67" vh="V" team="NC" clock="11:55" action="TURN" text="Turnover by NC."></play>
+      <play number="68" vh="H" team="UMD" clock="11:21" action="SHOT" text="GOAL by UMD Louis Dubick, Assist by Logan Wisnauskas, goal number 17 for season."></play>
+      <currentscore vscore="2" hscore="7"></currentscore>
+      <play number="69" vh="V" team="NC" clock="11:21" action="TOUT" text="Timeout by NC."></play>
+      <play number="70" vh="H" team="UMD" clock="11:21" action="FACE" text="Faceoff Zachary Tucci vs Austin Henningsen won by UMD."></play>
+      <play number="71" vh="H" team="UMD" clock="10:18" action="SHOT" text="GOAL by UMD Jared Bernhardt, Assist by Bubba Fairman, goal number 26 for season."></play>
+      <currentscore vscore="2" hscore="8"></currentscore>
+      <play number="72" vh="H" team="UMD" clock="10:18" action="FACE" text="Faceoff Zachary Tucci vs Austin Henningsen won by UMD, [10:18] Ground ball pickup by UMD Austin Henningsen."></play>
+      <play number="73" vh="H" team="UMD" clock="09:24" action="SHOT" text="Shot by UMD Logan Wisnauskas WIDE RIGHT."></play>
+      <play number="74" vh="H" team="UMD" clock="08:59" action="SHOT" text="Shot by UMD Kyle Long, SAVE Alex Bassil."></play>
+      <play number="75" vh="V" team="NC" clock="08:37" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="76" vh="V" team="NC" clock="08:29" action="SHOT" text="Shot by NC William Perry HIGH."></play>
+      <play number="77" vh="H" team="UMD" clock="08:28" action="TOUT" text="Timeout by UMD."></play>
+      <play number="78" vh="V" team="NC" clock="08:15" action="SHOT" text="Shot by NC William Perry WIDE RIGHT."></play>
+      <play number="79" vh="V" team="NC" clock="07:47" action="SHOT" text="Shot by NC William Perry, SAVE Danny Dolan."></play>
+      <play number="80" vh="H" team="UMD" clock="07:41" action="GB" text="Ground ball pickup by UMD Alex Smith."></play>
+      <play number="81" vh="H" team="UMD" clock="07:31" action="CLEAR" text="Clear attempt by UMD good."></play>
+      <play number="82" vh="V" team="NC" clock="07:25" action="PEN" text="Penalty on NC Justin Anderson (HOLDING/0:30) Extra-man opportunity."></play>
+      <play number="83" vh="H" team="UMD" clock="06:57" action="SHOT" text="Shot by UMD Anthony DeMaio, SAVE Alex Bassil."></play>
+      <play number="84" vh="V" team="NC" clock="06:52" action="GB" text="Ground ball pickup by NC Kevin Walker."></play>
+      <play number="85" vh="V" team="NC" clock="06:40" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="86" vh="V" team="NC" clock="05:58" action="SHOT" text="GOAL by NC Alex Trippi, goal number 8 for season."></play>
+      <currentscore vscore="3" hscore="8"></currentscore>
+      <play number="87" vh="H" team="UMD" clock="05:58" action="FACE" text="Faceoff Charles Kelly vs Austin Henningsen won by UMD, [05:58] Ground ball pickup by UMD Austin Henningsen."></play>
+      <play number="88" vh="H" team="UMD" clock="05:15" action="SHOT" text="GOAL by UMD Logan Wisnauskas, Assist by Jared Bernhardt, goal number 25 for season."></play>
+      <currentscore vscore="3" hscore="9"></currentscore>
+      <play number="89" vh="H" team="UMD" clock="05:15" action="FACE" text="Faceoff Charles Kelly vs Austin Henningsen won by UMD, [05:15] Ground ball pickup by UMD Austin Henningsen."></play>
+      <play number="90" vh="H" team="UMD" clock="04:30" action="SHOT" text="Shot by UMD Louis Dubick, SAVE Alex Bassil."></play>
+      <play number="91" vh="V" team="NC" clock="04:25" action="GB" text="Ground ball pickup by NC Alex Bassil."></play>
+      <play number="92" vh="V" team="NC" clock="04:12" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="93" vh="V" team="NC" clock="03:37" action="SHOT" text="Shot by NC Nicky Solomon BLOCKED."></play>
+      <play number="94" vh="V" team="NC" clock="03:32" action="SHOT" text="Shot by NC Jacob Kelly, SAVE Danny Dolan."></play>
+      <play number="95" vh="H" team="UMD" clock="03:02" action="CLEAR" text="Clear attempt by UMD failed."></play>
+      <play number="96" vh="H" team="UMD" clock="03:02" action="TURN" text="Turnover by UMD."></play>
+      <play number="97" vh="V" team="NC" clock="02:35" action="SHOT" text="Shot by NC Ha. Schertzinger, SAVE Danny Dolan."></play>
+      <play number="98" vh="H" team="UMD" clock="02:22" action="GB" text="Ground ball pickup by UMD Bubba Fairman."></play>
+      <play number="99" vh="H" team="UMD" clock="02:16" action="CLEAR" text="Clear attempt by UMD good."></play>
+      <play number="100" vh="H" team="UMD" clock="01:52" action="SHOT" text="Shot by UMD Jared Bernhardt, SAVE Alex Bassil."></play>
+      <play number="101" vh="V" team="NC" clock="01:50" action="PEN" text="Penalty on NC Ha. Schertzinger (HOLDING/0:30) Extra-man opportunity."></play>
+      <play number="102" vh="H" team="UMD" clock="01:29" action="SHOT" text="GOAL by UMD Will Snider (MAN-UP), Assist by Logan Wisnauskas, goal number 6 for season."></play>
+      <currentscore vscore="3" hscore="10"></currentscore>
+      <play number="103" vh="H" team="UMD" clock="01:29" action="FACE" text="Faceoff Zachary Tucci vs Austin Henningsen won by UMD (on faceoff violation)."></play>
+      <play number="104" vh="H" team="UMD" clock="00:19" action="SHOT" text="GOAL by UMD Louis Dubick, Assist by Kyle Long, goal number 18 for season."></play>
+      <currentscore vscore="3" hscore="11"></currentscore>
+      <play number="105" vh="H" team="UMD" clock="00:19" action="FACE" text="Faceoff Zachary Tucci vs Austin Henningsen won by UMD, [00:19] Ground ball pickup by UMD Roman Puglise."></play>
+      <play number="106" vh="H" team="UMD" clock="00:03" action="TURN" text="Turnover by UMD Jared Bernhardt."></play>
+      <play number="107" vh="V" team="NC" clock="00:01" action="GB" text="Ground ball pickup by NC Jack Rowlett."></play>
+      <play number="108" clock="00:00" action="END-PRD" text="End-of-period."></play>
+    </period>
+    <period number="3">
+      <play number="109" clock="15:00" action="PRD" text=""></play>
+      <play number="110" vh="H" team="UMD" clock="15:00" action="FACE" text="Faceoff Zachary Tucci vs Austin Henningsen won by UMD (on faceoff violation)."></play>
+      <play number="111" vh="H" team="UMD" clock="14:52" action="TURN" text="Turnover by UMD Roman Puglise."></play>
+      <play number="112" vh="V" team="NC" clock="14:47" action="GB" text="Ground ball pickup by NC Jack Rowlett."></play>
+      <play number="113" vh="V" team="NC" clock="14:29" action="SHOT" text="Shot by NC Nicky Solomon WIDE RIGHT."></play>
+      <play number="114" vh="V" team="NC" clock="13:55" action="SHOT" text="Shot by NC Justin Anderson WIDE LEFT."></play>
+      <play number="115" vh="V" team="NC" clock="13:36" action="SHOT" text="Shot by NC Nicky Solomon WIDE RIGHT."></play>
+      <play number="116" vh="V" team="NC" clock="13:35" action="GB" text="Ground ball pickup by NC Andy Matthews."></play>
+      <play number="117" vh="V" team="NC" clock="13:33" action="SHOT" text="GOAL by NC Timmy Kelly, Assist by Andy Matthews, goal number 11 for season."></play>
+      <currentscore vscore="4" hscore="11"></currentscore>
+      <play number="118" vh="H" team="UMD" clock="13:32" action="FACE" text="Faceoff Zachary Tucci vs Austin Henningsen won by UMD, [13:32] Ground ball pickup by UMD Austin Henningsen."></play>
+      <play number="119" vh="H" team="UMD" clock="13:13" action="GB" text="Ground ball pickup by UMD Austin Henningsen."></play>
+      <play number="120" vh="H" team="UMD" clock="13:13" action="TOUT" text="Timeout by UMD."></play>
+      <play number="121" vh="H" team="UMD" clock="12:50" action="SHOT" text="Shot by UMD Bubba Fairman WIDE RIGHT."></play>
+      <play number="122" vh="H" team="UMD" clock="12:19" action="SHOT" text="Shot by UMD Will Snider WIDE RIGHT."></play>
+      <play number="123" vh="H" team="UMD" clock="12:02" action="TURN" text="Turnover by UMD Logan Wisnauskas."></play>
+      <play number="124" vh="V" team="NC" clock="11:04" action="SHOT" text="Shot by NC Andy Matthews, SAVE Danny Dolan."></play>
+      <play number="125" vh="V" team="NC" clock="10:44" action="SHOT" text="GOAL by NC Timmy Kelly, Assist by Nicky Solomon, goal number 12 for season."></play>
+      <currentscore vscore="5" hscore="11"></currentscore>
+      <play number="126" vh="H" team="UMD" clock="10:44" action="FACE" text="Faceoff Ryan O'Connell vs Austin Henningsen won by UMD, [10:44] Ground ball pickup by UMD Roman Puglise."></play>
+      <play number="127" vh="H" team="UMD" clock="10:12" action="TURN" text="Turnover by UMD Roman Puglise (caused by Michael Nathan)."></play>
+      <play number="128" vh="H" team="UMD" clock="10:12" action="SHOT" text="Shot by UMD Christian Zawadzki HIT POST."></play>
+      <play number="129" vh="H" team="UMD" clock="10:12" action="GB" text="Ground ball pickup by UMD Christian Zawadzki."></play>
+      <play number="130" vh="H" team="UMD" clock="09:02" action="SHOT" text="GOAL by UMD Kyle Long, goal number 5 for season."></play>
+      <currentscore vscore="5" hscore="12"></currentscore>
+      <play number="131" vh="H" team="UMD" clock="09:02" action="FACE" text="Faceoff Zachary Tucci vs Austin Henningsen won by UMD, [09:02] Ground ball pickup by UMD Wesley Janeck."></play>
+      <play number="132" vh="H" team="UMD" clock="08:56" action="TURN" text="Turnover by UMD Wesley Janeck (caused by Jack Rowlett)."></play>
+      <play number="133" vh="V" team="NC" clock="08:54" action="GB" text="Ground ball pickup by NC Cam Macri."></play>
+      <play number="134" vh="V" team="NC" clock="08:14" action="SHOT" text="Shot by NC Timmy Kelly, SAVE Danny Dolan."></play>
+      <play number="135" vh="V" team="NC" clock="08:10" action="GB" text="Ground ball pickup by NC William Perry."></play>
+      <play number="136" vh="V" team="NC" clock="07:50" action="SHOT" text="Shot by NC Timmy Kelly WIDE RIGHT."></play>
+      <play number="137" vh="V" team="NC" clock="07:18" action="TURN" text="Turnover by NC Nicky Solomon."></play>
+      <play number="138" vh="H" team="UMD" clock="07:11" action="CLEAR" text="Clear attempt by UMD good."></play>
+      <play number="139" vh="H" team="UMD" clock="07:03" action="SHOT" text="Shot by UMD Logan Wisnauskas, SAVE Alex Bassil."></play>
+      <play number="140" vh="V" team="NC" clock="06:42" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="141" vh="V" team="NC" clock="06:23" action="SHOT" text="Shot by NC Tanner Cook, SAVE Danny Dolan."></play>
+      <play number="142" vh="H" team="UMD" clock="06:05" action="CLEAR" text="Clear attempt by UMD good."></play>
+      <play number="143" vh="H" team="UMD" clock="05:35" action="SHOT" text="GOAL by UMD Jared Bernhardt, Assist by Will Snider, goal number 27 for season."></play>
+      <currentscore vscore="5" hscore="13"></currentscore>
+      <play number="144" vh="H" team="UMD" clock="05:35" action="FACE" text="Faceoff Zachary Tucci vs Austin Henningsen won by UMD."></play>
+      <play number="145" vh="H" team="UMD" clock="04:05" action="CLOCKV" text="Shot clock violation by UMD."></play>
+      <play number="146" vh="V" team="NC" clock="03:57" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="147" vh="V" team="NC" clock="03:29" action="SHOT" text="GOAL by NC Alex Trippi, goal number 9 for season."></play>
+      <currentscore vscore="6" hscore="13"></currentscore>
+      <play number="148" vh="H" team="UMD" clock="03:29" action="FACE" text="Faceoff Jack Rowlett vs Austin Henningsen won by UMD, [03:29] Ground ball pickup by UMD Wesley Janeck."></play>
+      <play number="149" vh="H" team="UMD" clock="02:03" action="SHOT" text="GOAL by UMD Logan Wisnauskas, Assist by Bubba Fairman, goal number 26 for season."></play>
+      <currentscore vscore="6" hscore="14"></currentscore>
+      <play number="150" vh="H" team="UMD" clock="02:03" action="FACE" text="Faceoff Jack Rowlett vs Austin Henningsen won by UMD, [02:03] Ground ball pickup by UMD Austin Henningsen."></play>
+      <play number="151" vh="H" team="UMD" clock="01:14" action="SHOT" text="GOAL by UMD Louis Dubick, Assist by Kyle Long, goal number 19 for season."></play>
+      <currentscore vscore="6" hscore="15"></currentscore>
+      <play number="152" vh="V" team="NC" clock="01:14" action="FACE" text="Faceoff Ryan O'Connell vs Justin Shockey won by NC, [01:14] Ground ball pickup by NC Ryan O'Connell."></play>
+      <play number="153" vh="V" team="NC" clock="00:15" action="TURN" text="Turnover by NC Nicky Solomon."></play>
+      <play number="154" vh="H" team="UMD" clock="00:05" action="SHOT" text="Shot by UMD Logan Wisnauskas WIDE LEFT."></play>
+      <play number="155" vh="H" team="UMD" clock="00:02" action="SHOT" text="Shot by UMD Anthony DeMaio, SAVE Alex Bassil."></play>
+      <play number="156" clock="00:00" action="END-PRD" text="End-of-period."></play>
+    </period>
+    <period number="4">
+      <play number="157" clock="15:00" action="PRD" text=""></play>
+      <play number="158" vh="V" team="NC" clock="15:00" action="FACE" text="Faceoff Ryan O'Connell vs Justin Shockey won by NC, [15:00] Ground ball pickup by NC Ryan O'Connell."></play>
+      <play number="159" vh="V" team="NC" clock="14:14" action="SHOT" text="Shot by NC Jacob Kelly WIDE LEFT."></play>
+      <play number="160" vh="V" team="NC" clock="14:06" action="SHOT" text="Shot by NC William Perry HIGH."></play>
+      <play number="161" vh="V" team="NC" clock="14:02" action="GB" text="Ground ball pickup by NC Andy Matthews."></play>
+      <play number="162" vh="V" team="NC" clock="14:02" action="SHOT" text="GOAL by NC Timmy Kelly, Assist by Andy Matthews, goal number 13 for season."></play>
+      <currentscore vscore="7" hscore="15"></currentscore>
+      <play number="163" vh="V" team="NC" clock="14:02" action="FACE" text="Faceoff Ryan O'Connell vs Justin Shockey won by NC, [14:02] Ground ball pickup by NC Ryan O'Connell."></play>
+      <play number="164" vh="V" team="NC" clock="13:51" action="TURN" text="Turnover by NC Ryan O'Connell."></play>
+      <play number="165" vh="H" team="UMD" clock="13:49" action="TOUT" text="Timeout by UMD."></play>
+      <play number="166" vh="H" team="UMD" clock="13:44" action="TURN" text="Turnover by UMD Russell Masci (caused by Nicky Solomon)."></play>
+      <play number="167" vh="V" team="NC" clock="13:43" action="GB" text="Ground ball pickup by NC Nicky Solomon."></play>
+      <play number="168" vh="V" team="NC" clock="13:36" action="SHOT" text="GOAL by NC Nicky Solomon, goal number 12 for season."></play>
+      <currentscore vscore="8" hscore="15"></currentscore>
+      <play number="169" vh="H" team="UMD" clock="13:36" action="FACE" text="Faceoff Ryan O'Connell vs Austin Henningsen won by UMD (on faceoff violation)."></play>
+      <play number="170" vh="H" team="UMD" clock="12:31" action="TURN" text="Turnover by UMD Anthony DeMaio."></play>
+      <play number="171" vh="V" team="NC" clock="12:21" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="172" vh="V" team="NC" clock="12:14" action="SHOT" text="Shot by NC William Perry, SAVE Danny Dolan."></play>
+      <play number="173" vh="H" team="UMD" clock="12:06" action="CLEAR" text="Clear attempt by UMD failed."></play>
+      <play number="174" vh="H" team="UMD" clock="12:07" action="TURN" text="Turnover by UMD Brett Makar."></play>
+      <play number="175" vh="V" team="NC" clock="12:03" action="SHOT" text="GOAL by NC Andy Matthews, goal number 10 for season."></play>
+      <currentscore vscore="9" hscore="15"></currentscore>
+      <play number="176" vh="H" team="UMD" clock="12:03" action="FACE" text="Faceoff Ryan O'Connell vs Austin Henningsen won by UMD, [12:03] Ground ball pickup by UMD Austin Henningsen."></play>
+      <play number="177" vh="V" team="NC" clock="11:40" action="PEN" text="Penalty on NC Andy Matthews (CROSS-CHECK/1:00) Extra-man opportunity."></play>
+      <play number="178" vh="H" team="UMD" clock="10:59" action="TURN" text="Turnover by UMD Bubba Fairman (caused by Jack Rowlett)."></play>
+      <play number="179" vh="V" team="NC" clock="10:49" action="GB" text="Ground ball pickup by NC Alex Bassil."></play>
+      <play number="180" vh="H" team="UMD" clock="10:46" action="PEN" text="Penalty on UMD Bubba Fairman (HOLDING/0:30) Extra-man opportunity."></play>
+      <play number="181" vh="V" team="NC" clock="10:13" action="TURN" text="Turnover by NC Andy Matthews."></play>
+      <play number="182" vh="H" team="UMD" clock="10:09" action="GB" text="Ground ball pickup by UMD Matt Rahill."></play>
+      <play number="183" vh="H" team="UMD" clock="09:54" action="CLEAR" text="Clear attempt by UMD good."></play>
+      <play number="184" vh="H" team="UMD" clock="08:55" action="TURN" text="Turnover by UMD Jared Bernhardt."></play>
+      <play number="185" vh="V" team="NC" clock="08:46" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="186" vh="V" team="NC" clock="08:16" action="SHOT" text="Shot by NC Nicky Solomon, SAVE Danny Dolan."></play>
+      <play number="187" vh="H" team="UMD" clock="08:03" action="CLEAR" text="Clear attempt by UMD good."></play>
+      <play number="188" vh="V" team="NC" clock="06:59" action="PEN" text="Penalty on NC Justin Anderson (PUSHING/0:30) Extra-man opportunity."></play>
+      <play number="189" vh="H" team="UMD" clock="05:49" action="SHOT" text="Shot by UMD Louis Dubick WIDE LEFT."></play>
+      <play number="190" vh="H" team="UMD" clock="05:40" action="SHOT" text="Shot by UMD Bubba Fairman WIDE RIGHT."></play>
+      <play number="191" vh="H" team="UMD" clock="05:37" action="CLOCKV" text="Shot clock violation by UMD."></play>
+      <play number="192" vh="V" team="NC" clock="05:24" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="193" vh="V" team="NC" clock="05:04" action="TURN" text="Turnover by NC Timmy Kelly."></play>
+      <play number="194" vh="H" team="UMD" clock="04:53" action="GB" text="Ground ball pickup by UMD Brett Makar."></play>
+      <play number="195" vh="H" team="UMD" clock="04:51" action="CLEAR" text="Clear attempt by UMD good."></play>
+      <play number="196" vh="H" team="UMD" clock="03:59" action="TURN" text="Turnover by UMD Kyle Long."></play>
+      <play number="197" vh="V" team="NC" clock="03:56" action="GB" text="Ground ball pickup by NC Justin Anderson."></play>
+      <play number="198" vh="V" team="NC" clock="03:50" action="SHOT" text="Shot by NC Brian Cameron WIDE LEFT."></play>
+      <play number="199" vh="H" team="UMD" clock="03:32" action="SHOT" text="Shot by UMD Will Snider WIDE LEFT."></play>
+      <play number="200" vh="H" team="UMD" clock="02:34" action="SHOT" text="GOAL by UMD Anthony DeMaio, goal number 14 for season."></play>
+      <currentscore vscore="9" hscore="16"></currentscore>
+      <play number="201" vh="H" team="UMD" clock="02:34" action="TOUT" text="Media timeout."></play>
+      <play number="202" vh="V" team="NC" clock="02:34" action="FACE" text="Faceoff Ryan O'Connell vs Austin Henningsen won by NC (on faceoff violation)."></play>
+      <play number="203" vh="V" team="NC" clock="02:00" action="SHOT" text="Shot by NC Matt Gavin WIDE LEFT."></play>
+      <play number="204" vh="V" team="NC" clock="01:55" action="GB" text="Ground ball pickup by NC Brian Cameron."></play>
+      <play number="205" vh="V" team="NC" clock="01:47" action="SHOT" text="Shot by NC William Perry, SAVE Danny Dolan."></play>
+      <play number="206" vh="H" team="UMD" clock="01:27" action="CLEAR" text="Clear attempt by UMD good."></play>
+      <play number="207" vh="V" team="NC" clock="00:48" action="PEN" text="Penalty on NC Jack Rowlett (TRIPPING/1:00) Extra-man opportunity."></play>
+      <play number="208" vh="H" team="UMD" clock="00:48" action="GOALIE" text="Andrew Morris at goalie for UMD."></play>
+      <play number="209" clock="00:00" action="END-PRD" text="End-of-period."></play>
+      <currentscore vscore="9" hscore="16"></currentscore>
+    </period>
+  </plays>
+</lcgame>

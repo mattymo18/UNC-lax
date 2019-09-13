@@ -1,0 +1,260 @@
+<lcseas source="TAS For Lacrosse" version="1.1.0" date="2/23/2019">
+  <venue type="" ncaadivision=""></venue>
+  <rules prds="4" minutes="15" minutesot="4"></rules>
+  <team code="" id="NC" name="North Carolina" season="" conf="" coach=""
+           overall="3-1-0" confonly="0-0-0" home="2-1-0" away="0-0-0" neutral="1-0-0"></team>
+  <totals gp="4">
+    <shots g="60" a="30" pts="90" sh="179" freepos="0" sog="117"></shots>
+    <goaltype gw="3" en="0" ppg="6" shg="1" fpg="0" ua="30" fg="3" ot="0" gt="0"></goaltype>
+    <penalties number="22" minutes="17:00" minor="12" major="9" match="1" rc="0" yc="0" gc="0" fouls="0" clockv="0" clockw="0" clockg="0"></penalties>
+    <misc ppg="6" ppopp="17" clearm="71" cleara="80" fpa="0" gb="153" dc="0" to="66" ct="36" facewon="66" facelost="49" facepct=".574"></misc>
+    <goalie gp="4" minutes="240:00" ga="41" saves="37" gaavg="10.25" svpct=".474" ppg="8" shg="0" eng="0" sho="0" w="3" l="1" t="0" sf="138"></goalie>
+  </totals>
+  <opponent gp="4">
+    <shots g="41" a="26" pts="67" sh="138" freepos="0" sog="78"></shots>
+    <goaltype gw="1" en="0" ppg="8" shg="0" fpg="0" ua="15" fg="1" ot="0" gt="0"></goaltype>
+    <penalties number="16" minutes="10:30" minor="11" major="5" match="0" rc="0" yc="0" gc="0" fouls="0" clockv="1" clockw="0" clockg="0"></penalties>
+    <misc ppg="8" ppopp="23" clearm="65" cleara="84" fpa="0" gb="137" dc="0" to="75" ct="27" facewon="49" facelost="66" facepct=".426"></misc>
+    <goalie gp="4" minutes="240:00" ga="60" saves="57" gaavg="15.00" svpct=".487" ppg="6" shg="1" eng="0" sho="0" w="1" l="3" t="0" sf="179"></goalie>
+  </opponent>
+  <player name="Jake Peden" checkname="PEDEN,JAKE" uni="0" code="0" year="SR" active="1" gp="4" gs="4">
+    <shots g="1" a="0" pts="1" sh="1" freepos="0" sog="1"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="0" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="0" minutes="0:00" minor="0" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="7" dc="0" to="1" ct="2" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Alex Trippi" checkname="TRIPPI,ALEX" uni="1" code="1" year="SO" active="1" gp="4" gs="0">
+    <shots g="4" a="2" pts="6" sh="16" freepos="0" sog="11"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="3" fg="1" ot="0" gt="0"></goaltype>
+    <penalties number="1" minutes="0:30" minor="1" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="0" dc="0" to="3" ct="0" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Jesse Cuccia" checkname="CUCCIA,JESSE" uni="2" code="2" year="SR" active="1" gp="1" gs="0">
+    <shots g="0" a="0" pts="0" sh="2" freepos="0" sog="2"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="0" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="0" minutes="0:00" minor="0" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="0" dc="0" to="0" ct="0" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="William Perry" checkname="PERRY,WILLIAM" uni="3" code="3" year="JR" active="1" gp="4" gs="4">
+    <shots g="7" a="2" pts="9" sh="27" freepos="0" sog="14"></shots>
+    <goaltype gw="0" en="0" ppg="1" shg="0" fpg="0" ua="4" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="0" minutes="0:00" minor="0" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="2" dc="0" to="3" ct="2" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Jack Halpert" checkname="HALPERT,JACK" uni="4" code="4" year="SR" active="1" gp="4" gs="0">
+    <shots g="0" a="0" pts="0" sh="1" freepos="0" sog="0"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="0" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="1" minutes="0:30" minor="1" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="19" dc="0" to="2" ct="2" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Nicky Solomon" checkname="SOLOMON,NICKY" uni="5" code="5" year="FR" active="1" gp="4" gs="4">
+    <shots g="5" a="3" pts="8" sh="17" freepos="0" sog="13"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="1" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="0" minutes="0:00" minor="0" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="4" dc="0" to="4" ct="2" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Mike Guerin" checkname="GUERIN,MIKE" uni="6" code="6" year="JR" active="1" gp="1" gs="0">
+    <shots g="0" a="0" pts="0" sh="0" freepos="0" sog="0"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="0" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="0" minutes="0:00" minor="0" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="0" dc="0" to="1" ct="0" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Jordan Prysko" checkname="PRYSKO,JORDAN" uni="8" code="8" year="SR" active="1" gp="1" gs="0">
+    <shots g="0" a="0" pts="0" sh="0" freepos="0" sog="0"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="0" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="0" minutes="0:00" minor="0" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="0" dc="0" to="0" ct="0" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Jacob Kelly" checkname="KELLY,JACOB" uni="9" code="9" year="FR" active="1" gp="4" gs="4">
+    <shots g="5" a="3" pts="8" sh="18" freepos="0" sog="11"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="0" fg="1" ot="0" gt="0"></goaltype>
+    <penalties number="1" minutes="0:30" minor="1" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="4" dc="0" to="6" ct="1" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Andy Matthews" checkname="MATTHEWS,ANDY" uni="12" code="12" year="SR" active="1" gp="4" gs="4">
+    <shots g="3" a="9" pts="12" sh="6" freepos="0" sog="5"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="1" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="0" minutes="0:00" minor="0" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="6" dc="0" to="7" ct="1" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Timmy Kelly" checkname="KELLY,TIMMY" uni="15" code="15" year="SR" active="1" gp="4" gs="4">
+    <shots g="4" a="4" pts="8" sh="12" freepos="0" sog="8"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="4" fg="1" ot="0" gt="0"></goaltype>
+    <penalties number="0" minutes="0:00" minor="0" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="3" dc="0" to="6" ct="1" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Brian Cameron" checkname="CAMERON,BRIAN" uni="19" code="19" year="FR" active="1" gp="4" gs="0">
+    <shots g="3" a="0" pts="3" sh="9" freepos="0" sog="8"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="3" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="0" minutes="0:00" minor="0" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="4" dc="0" to="0" ct="0" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Justin Anderson" checkname="ANDERSON,JUSTIN" uni="21" code="21" year="JR" active="1" gp="4" gs="4">
+    <shots g="7" a="1" pts="8" sh="22" freepos="0" sog="15"></shots>
+    <goaltype gw="0" en="0" ppg="3" shg="1" fpg="0" ua="3" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="3" minutes="2:30" minor="1" major="2" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="8" dc="0" to="9" ct="1" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Jack Rowlett" checkname="ROWLETT,JACK" uni="22" code="22" year="SR" active="1" gp="4" gs="4">
+    <shots g="2" a="0" pts="2" sh="3" freepos="0" sog="2"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="1" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="2" minutes="1:30" minor="1" major="1" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="11" dc="0" to="2" ct="8" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Parker Alexander" checkname="ALEXANDER,PARKER" uni="23" code="23" year="SO" active="1" gp="4" gs="0">
+    <shots g="1" a="0" pts="1" sh="1" freepos="0" sog="1"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="0" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="3" minutes="1:30" minor="3" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="5" dc="0" to="1" ct="2" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Ara Atayan" checkname="ATAYAN,ARA" uni="24" code="24" year="SO" active="1" gp="4" gs="0">
+    <shots g="5" a="1" pts="6" sh="9" freepos="0" sog="7"></shots>
+    <goaltype gw="1" en="0" ppg="0" shg="0" fpg="0" ua="4" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="0" minutes="0:00" minor="0" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="2" dc="0" to="3" ct="1" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Cam Macri" checkname="MACRI,CAM" uni="28" code="28" year="JR" active="1" gp="4" gs="0">
+    <shots g="0" a="0" pts="0" sh="0" freepos="0" sog="0"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="0" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="1" minutes="1:00" minor="0" major="1" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="5" dc="0" to="1" ct="0" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Patrick Lyons" checkname="LYONS,PATRICK" uni="29" code="29" year="JR" active="1" gp="1" gs="0">
+    <shots g="0" a="0" pts="0" sh="0" freepos="0" sog="0"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="0" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="0" minutes="0:00" minor="0" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="0" dc="0" to="0" ct="0" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Bailey Laidman" checkname="LAIDMAN,BAILEY" uni="30" code="30" year="SO" active="1" gp="1" gs="0">
+    <shots g="0" a="0" pts="0" sh="1" freepos="0" sog="0"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="0" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="0" minutes="0:00" minor="0" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="0" dc="0" to="0" ct="0" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Connor Maher" checkname="MAHER,CONNOR" uni="31" code="31" year="FR" active="1" gp="4" gs="0">
+    <shots g="0" a="0" pts="0" sh="1" freepos="0" sog="0"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="0" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="0" minutes="0:00" minor="0" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="16" dc="0" to="2" ct="3" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Matt Gavin" checkname="GAVIN,MATT" uni="32" code="32" year="JR" active="1" gp="1" gs="0">
+    <shots g="1" a="0" pts="1" sh="2" freepos="0" sog="2"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="0" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="0" minutes="0:00" minor="0" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="0" dc="0" to="0" ct="0" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Zachary Tucci" checkname="TUCCI,ZACHARY" uni="35" code="35" year="FR" active="1" gp="4" gs="0">
+    <shots g="0" a="1" pts="1" sh="3" freepos="0" sog="1"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="0" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="2" minutes="1:30" minor="1" major="1" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="26" dc="0" to="1" ct="1" facewon="66" facelost="46" facepct=".589"></misc>
+  </player>
+  <player name="Paddy Sheehan" checkname="SHEEHAN,PADDY" uni="36" code="36" year="SR" active="1" gp="1" gs="0">
+    <shots g="0" a="0" pts="0" sh="0" freepos="0" sog="0"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="0" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="0" minutes="0:00" minor="0" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="0" dc="0" to="0" ct="0" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Cole Haverty" checkname="HAVERTY,COLE" uni="40" code="40" year="SR" active="1" gp="3" gs="0">
+    <shots g="0" a="0" pts="0" sh="0" freepos="0" sog="0"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="0" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="0" minutes="0:00" minor="0" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="1" dc="0" to="0" ct="1" facewon="0" facelost="3" facepct=".000"></misc>
+  </player>
+  <player name="Colin Munro" checkname="MUNRO,COLIN" uni="41" code="41" year="SO" active="1" gp="4" gs="0">
+    <shots g="0" a="0" pts="0" sh="0" freepos="0" sog="0"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="0" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="0" minutes="0:00" minor="0" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="0" dc="0" to="0" ct="0" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Jack Pezzulla" checkname="PEZZULLA,JACK" uni="42" code="42" year="JR" active="1" gp="4" gs="4">
+    <shots g="0" a="0" pts="0" sh="0" freepos="0" sog="0"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="0" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="0" minutes="0:00" minor="0" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="16" dc="0" to="1" ct="1" facewon="0" facelost="0" facepct=".000"></misc>
+    <goalie gp="4" gs="4" minutes="225:00" ga="37" saves="31" gaavg="9.87" svpct=".456" ppg="8" shg="0" eng="0" sho="0" w="3" l="1" t="0" sf="127"></goalie>
+  </player>
+  <player name="Michael Nathan" checkname="NATHAN,MICHAEL" uni="43" code="43" year="SR" active="1" gp="3" gs="3">
+    <shots g="0" a="0" pts="0" sh="0" freepos="0" sog="0"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="0" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="2" minutes="2:00" minor="0" major="2" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="1" dc="0" to="0" ct="4" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Henry Schertzinger" checkname="SCHERTZINGER,HENRY" uni="44" code="44" year="FR" active="1" gp="4" gs="0">
+    <shots g="3" a="0" pts="3" sh="8" freepos="0" sog="3"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="3" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="1" minutes="0:30" minor="1" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="1" dc="0" to="1" ct="0" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Ha. Schertzinger" checkname="SCHERTZINGER,HA" uni="45" code="45" year="FR" active="1" gp="4" gs="0">
+    <shots g="0" a="0" pts="0" sh="1" freepos="0" sog="1"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="0" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="0" minutes="0:00" minor="0" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="0" dc="0" to="2" ct="1" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Alex Helms" checkname="HELMS,ALEX" uni="46" code="46" year="SO" active="1" gp="3" gs="0">
+    <shots g="0" a="0" pts="0" sh="0" freepos="0" sog="0"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="0" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="0" minutes="0:00" minor="0" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="2" dc="0" to="0" ct="0" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Alex Bassil" checkname="BASSIL,ALEX" uni="48" code="48" year="SR" active="1" gp="1" gs="0">
+    <shots g="0" a="0" pts="0" sh="0" freepos="0" sog="0"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="0" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="0" minutes="0:00" minor="0" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="2" dc="0" to="0" ct="0" facewon="0" facelost="0" facepct=".000"></misc>
+    <goalie gp="1" gs="0" minutes="15:00" ga="4" saves="6" gaavg="16.00" svpct=".600" ppg="0" shg="0" eng="0" sho="0" w="0" l="0" t="0" sf="11"></goalie>
+  </player>
+  <player name="Kevin Walker" checkname="WALKER,KEVIN" uni="50" code="50" year="SR" active="1" gp="4" gs="0">
+    <shots g="0" a="0" pts="0" sh="0" freepos="0" sog="0"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="0" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="0" minutes="0:00" minor="0" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="2" dc="0" to="0" ct="0" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Cole Brown" checkname="BROWN,COLE" uni="55" code="55" year="FR" active="1" gp="1" gs="0">
+    <shots g="0" a="0" pts="0" sh="0" freepos="0" sog="0"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="0" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="0" minutes="0:00" minor="0" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="0" dc="0" to="0" ct="0" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Tanner Cook" checkname="COOK,TANNER" uni="77" code="77" year="JR" active="1" gp="4" gs="0">
+    <shots g="8" a="4" pts="12" sh="18" freepos="0" sog="11"></shots>
+    <goaltype gw="1" en="0" ppg="2" shg="0" fpg="0" ua="2" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="3" minutes="3:30" minor="1" major="1" match="1" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="4" dc="0" to="4" ct="0" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Evan Egan" checkname="EGAN,EVAN" uni="88" code="88" year="FR" active="1" gp="4" gs="1">
+    <shots g="1" a="0" pts="1" sh="1" freepos="0" sog="1"></shots>
+    <goaltype gw="1" en="0" ppg="0" shg="0" fpg="0" ua="1" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="1" minutes="1:00" minor="0" major="1" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="2" dc="0" to="0" ct="1" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="Tyler Seminetta" checkname="SEMINETTA,TYLER" uni="99" code="99" year="JR" active="1" gp="1" gs="0">
+    <shots g="0" a="0" pts="0" sh="0" freepos="0" sog="0"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="0" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="0" minutes="0:00" minor="0" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="0" dc="0" to="0" ct="0" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <player name="TEAM" checkname="TEAM" uni="TM" code="TM" year="" active="1" gp="4" gs="0">
+    <shots g="0" a="0" pts="0" sh="0" freepos="0" sog="0"></shots>
+    <goaltype gw="0" en="0" ppg="0" shg="0" fpg="0" ua="0" fg="0" ot="0" gt="0"></goaltype>
+    <penalties number="1" minutes="0:30" minor="1" major="0" match="0" rc="0" yc="0" gc="0" fouls="0"></penalties>
+    <misc gb="0" dc="0" to="6" ct="1" facewon="0" facelost="0" facepct=".000"></misc>
+  </player>
+  <periods>
+    <period number="1" ownscore="16" oppscore="9"></period>
+    <period number="2" ownscore="16" oppscore="7"></period>
+    <period number="3" ownscore="15" oppscore="11"></period>
+    <period number="4" ownscore="13" oppscore="14"></period>
+  </periods>
+  <games>
+    <game number="1" gameid="NCML0202" date="2/2/2019" oppcode="406" oppid="MER" oppname="Mercer" site="Roswell, GA"
+             ownscore="20" oppscore="9" periods="4" homeaway="N" attend="1022"></game>
+    <game number="2" gameid="NCML0209" date="2/9/2019" oppcode="244" oppid="FUR" oppname="Furman" site="Chapel Hill, N.C."
+             ownscore="14" oppscore="10" periods="4" homeaway="H" attend="334"></game>
+    <game number="3" gameid="NCML0216" date="2/16/2019" oppcode="275" oppid="HARV" oppname="Harvard" site="Chapel Hill, N.C."
+             ownscore="16" oppscore="11" periods="4" homeaway="H" attend="173"></game>
+    <game number="4" gameid="NCML0323" date="2/23/2019" oppcode="322" oppid="JHU" oppname="Johns Hopkins" site="Chapel Hill, N.C."
+             ownscore="10" oppscore="11" periods="4" homeaway="H" attend="204"></game>
+  </games>
+</lcseas>

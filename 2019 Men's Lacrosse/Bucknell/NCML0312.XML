@@ -1,0 +1,711 @@
+<lcgame source="TAS For Lacrosse" version="1.16.01" generated="3/12/2019">
+  <venue gameid="NCML0312"
+           visid="BUCKNELL" visname="Bucknell"
+           homeid="NC" homename="North Carolina"
+           date="3/12/2019" location="Chapel Hill, N.C." stadium="UNC Lacrosse Stadium"
+           start="4:02 pm" end="5:58 pm" duration="1:56" attend="415" schednote=""
+           leaguegame="N" neutralgame="N">
+    <officials>
+      <official name="Mikko Red Arrow"></official>
+      <official name="Sonny Ziegler"></official>
+      <official name="Richard Tamberrino"></official>
+      <official name="Bill Hurd"></official>
+    </officials>
+    <rules prds="4" minutes="15" minutesot="4" minminor="30" minmajor="60" minmatch="180" shootoutshot="0" shootoutteam="0"></rules>
+    <show sog="1" turnovers="1" faceoffs="1" penalties="1" clears="1" todetails="0" fouls="0" dcs="0" fpas="0" nll="0" g2="0" reversemin="0"></show>
+  </venue>
+  <status period="4" clock="00:00"></status>
+  <team vh="V" id="BUCKNELL" name="Bucknell" code="83" record="2-5">
+    <linescore periods="4" line="2,2,2,1" score="7" shotline="8,7,7,5" shots="27">
+      <lineprd prd="1" score="2" shots="8" sog="6" saves="5" ppg="1" ppatt="2" fowon="4" pen="0" psec="0"
+               gb="6" dc="0" fpg="0" fps="0" fpa="0" fouls="0" clearm="5" cleara="6" turnover="5"
+               clockv="0" clockw="0" clockg="0" fviol="1"></lineprd>
+      <lineprd prd="2" score="2" shots="7" sog="4" saves="2" ppg="0" ppatt="0" fowon="2" pen="0" psec="0"
+               gb="10" dc="0" fpg="0" fps="0" fpa="0" fouls="0" clearm="2" cleara="5" turnover="7"
+               clockv="0" clockw="0" clockg="0" fviol="0"></lineprd>
+      <lineprd prd="3" score="2" shots="7" sog="3" saves="5" ppg="0" ppatt="2" fowon="2" pen="2" psec="120"
+               gb="4" dc="0" fpg="0" fps="0" fpa="0" fouls="0" clearm="3" cleara="4" turnover="3"
+               clockv="0" clockw="0" clockg="0" fviol="0"></lineprd>
+      <lineprd prd="4" score="1" shots="5" sog="3" saves="2" ppg="0" ppatt="0" fowon="4" pen="1" psec="60"
+               gb="6" dc="0" fpg="0" fps="0" fpa="0" fouls="0" clearm="5" cleara="7" turnover="6"
+               clockv="0" clockw="0" clockg="0" fviol="1"></lineprd>
+    </linescore>
+    <totals>
+      <shots g="7" a="2" sh="27" sog="16" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="1" sh="0" ua="5" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="3" seconds="180" minor="0" major="3" match="0" rc="0" yc="0" gc="0" foul="0" clockv="0" clockw="0" clockg="0" fviol="2"></penalty>
+      <misc facewon="12" facelost="10" gb="26" dc="0" turnover="21" ct="11" minutes="600" seconds="0" dsave="0"></misc>
+      <goalie minutes="60:00" ga="12" saves="14" sf="41" savebyprd="5,2,5,2" sho="0" cbosho="0" ppg="2" shg="0" eng="0" sog="0"></goalie>
+      <powerplay ppg="1" ppopp="4"></powerplay>
+      <clear clearm="15" cleara="22"></clear>
+    </totals>
+    <player uni="1" name="Altemus, Joey" checkname="ALTEMUS,JOEY" class="SR" gp="0" code="1"></player>
+    <player uni="2" name="Sopko, Tommy" checkname="SOPKO,TOMMY" class="SO" gp="1" gs="1" pos="a" code="2">
+      <shots g="1" a="0" sh="2" sog="2" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="1" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="2" ct="0" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="3" name="Witzal, Jarett" checkname="WITZAL,JARETT" class="SR" gp="1" code="3">
+      <shots g="0" a="0" sh="1" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc facewon="12" facelost="10" gb="2" dc="0" turnover="0" ct="1" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="4" name="Durkin, Ryan" checkname="DURKIN,RYAN" class="SR" gp="1" gs="1" pos="mf" code="4">
+      <shots g="0" a="0" sh="4" sog="2" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="1" dc="0" turnover="1" ct="1" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="5" name="Alicea, J.J." checkname="ALICEA,JJ" class="SO" gp="0" code="5"></player>
+    <player uni="6" name="Brumbaugh, Sumner" checkname="BRUMBAUGH,SUMNER" class="SO" gp="0" code="6"></player>
+    <player uni="7" name="Tarry, Alston" checkname="TARRY,ALSTON" class="FR" gp="1" gs="1" pos="a" code="7">
+      <shots g="3" a="0" sh="5" sog="5" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="1" sh="0" ua="1" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="3" ct="1" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="8" name="Wellington, Drew" checkname="WELLINGTON,DREW" class="FR" gp="1" gs="1" pos="d" code="8">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="4" dc="0" turnover="0" ct="2" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="9" name="Fedorjaka, Matt" checkname="FEDORJAKA,MATT" class="JR" gp="1" code="9">
+      <shots g="0" a="1" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="1" dc="0" turnover="2" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="10" name="Dumbauld, Teddy" checkname="DUMBAULD,TEDDY" class="SR" gp="0" code="10"></player>
+    <player uni="11" name="Smith, Tom" checkname="SMITH,TOM" class="SR" gp="1" gs="1" pos="mf" code="11">
+      <shots g="2" a="0" sh="4" sog="2" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="2" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="1" dc="0" turnover="2" ct="0" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="13" name="Klipstein, Christian" checkname="KLIPSTEIN,CHRISTIAN" class="SR" gp="1" gs="1" pos="gk" code="13">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="3" dc="0" turnover="0" ct="1" minutes="60" seconds="0" dsave="0"></misc>
+      <goalie gp="1" gs="1" minutes="60:00" ga="12" saves="14" sf="41" savebyprd="5,2,5,2" loss="2-5" sho="0" cbosho="0" ppg="2" shg="0" eng="0" sog="0"></goalie>
+    </player>
+    <player uni="14" name="Burns, Grayson" checkname="BURNS,GRAYSON" class="JR" gp="0" code="14"></player>
+    <player uni="15" name="Sweely, Garrett" checkname="SWEELY,GARRETT" class="SO" gp="0" code="15"></player>
+    <player uni="16" name="Hodell, Jared" checkname="HODELL,JARED" class="FR" gp="0" code="16"></player>
+    <player uni="17" name="Malas, Reed" checkname="MALAS,REED" class="SR" gp="1" gs="1" pos="mf" code="17">
+      <shots g="0" a="1" sh="2" sog="1" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="4" dc="0" turnover="1" ct="0" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="18" name="Talarico, Alec" checkname="TALARICO,ALEC" class="SR" gp="0" code="18"></player>
+    <player uni="19" name="Tucker, Zach" checkname="TUCKER,ZACH" class="FR" gp="0" code="19"></player>
+    <player uni="20" name="Delanois, Reed" checkname="DELANOIS,REED" class="FR" gp="1" gs="1" pos="d" code="20">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="1" seconds="60" minor="0" major="1" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="3" dc="0" turnover="2" ct="2" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="21" name="Van Slyke, Jack" checkname="VAN SLYKE,JACK" class="FR" gp="0" code="21"></player>
+    <player uni="23" name="Newman, Hunter" checkname="NEWMAN,HUNTER" class="JR" gp="1" code="23">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="1" seconds="60" minor="0" major="1" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="24" name="Farrell, Matt" checkname="FARRELL,MATT" class="SO" gp="0" code="24"></player>
+    <player uni="25" name="O'Brien, Colin" checkname="O'BRIEN,COLIN" class="SO" gp="0" code="25"></player>
+    <player uni="26" name="Barkauskas, Matthew" checkname="BARKAUSKAS,MATTHEW" class="FR" gp="1" code="26">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="1" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="27" name="Boswell, Bryant" checkname="BOSWELL,BRYANT" class="SO" gp="1" gs="1" pos="d" code="27">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="2" dc="0" turnover="0" ct="1" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="28" name="Clark, Ben" checkname="CLARK,BEN" class="SO" gp="0" code="28"></player>
+    <player uni="29" name="Feeley, Jack" checkname="FEELEY,JACK" class="SR" gp="0" code="29"></player>
+    <player uni="31" name="Shears, Conor" checkname="SHEARS,CONOR" class="JR" gp="0" code="31"></player>
+    <player uni="32" name="Carroll, Mike" checkname="CARROLL,MIKE" class="FR" gp="0" code="32"></player>
+    <player uni="33" name="Puccio, Phil" checkname="PUCCIO,PHIL" class="SO" gp="0" code="33"></player>
+    <player uni="34" name="Clarke, Nick" checkname="CLARKE,NICK" class="SO" gp="1" code="34">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="35" name="Elardo, Jordy" checkname="ELARDO,JORDY" class="SR" gp="0" code="35"></player>
+    <player uni="36" name="Talarico, Travis" checkname="TALARICO,TRAVIS" class="FR" gp="1" code="36">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="1" seconds="60" minor="0" major="1" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="3" dc="0" turnover="0" ct="1" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="37" name="McCann, Ryan" checkname="MCCANN,RYAN" class="FR" gp="0" code="37"></player>
+    <player uni="40" name="Egan, Brendan" checkname="EGAN,BRENDAN" class="SO" gp="1" code="40">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="41" name="Dickson, Marshall" checkname="DICKSON,MARSHALL" class="SR" gp="0" code="41"></player>
+    <player uni="42" name="Lundy, Brenden" checkname="LUNDY,BRENDEN" class="FR" gp="0" code="42"></player>
+    <player uni="45" name="Andrew Hurdle" checkname="HURDLE,ANDREW" class="FR" gp="0" code="45"></player>
+    <player uni="55" name="Crovatto, Nick" checkname="CROVATTO,NICK" class="FR" gp="0" code="55"></player>
+    <player uni="66" name="Landry, Brad" checkname="LANDRY,BRAD" class="SR" gp="1" code="66">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="4" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="77" name="Higgins, Frankie" checkname="HIGGINS,FRANKIE" class="FR" gp="0" code="77"></player>
+    <player uni="88" name="Wilkinson, Ben" checkname="WILKINSON,BEN" class="SO" gp="0" code="88"></player>
+    <player uni="99" name="Yorke, Will" checkname="YORKE,WILL" class="JR" gp="1" gs="1" pos="a" code="99">
+      <shots g="1" a="0" sh="9" sog="4" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="1" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="2" dc="0" turnover="2" ct="1" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="TM" name="TEAM" checkname="TEAM" class="" gp="1" code="TM">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="1" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+  </team>
+  <team vh="H" id="NC" name="North Carolina" code="457" record="5-2" rank="15">
+    <linescore periods="4" line="3,3,3,3" score="12" shotline="9,11,14,7" shots="41">
+      <lineprd prd="1" score="3" shots="9" sog="8" saves="4" ppg="0" ppatt="0" fowon="2" pen="2" psec="90"
+               gb="6" dc="0" fpg="0" fps="0" fpa="0" fouls="0" clearm="4" cleara="5" turnover="1"
+               clockv="0" clockw="0" clockg="0" fviol="2"></lineprd>
+      <lineprd prd="2" score="3" shots="11" sog="5" saves="2" ppg="0" ppatt="0" fowon="3" pen="0" psec="0"
+               gb="9" dc="0" fpg="0" fps="0" fpa="0" fouls="0" clearm="3" cleara="4" turnover="6"
+               clockv="0" clockw="0" clockg="0" fviol="0"></lineprd>
+      <lineprd prd="3" score="3" shots="14" sog="8" saves="1" ppg="1" ppatt="2" fowon="4" pen="2" psec="120"
+               gb="9" dc="0" fpg="0" fps="0" fpa="0" fouls="0" clearm="2" cleara="3" turnover="2"
+               clockv="0" clockw="0" clockg="0" fviol="0"></lineprd>
+      <lineprd prd="4" score="3" shots="7" sog="5" saves="2" ppg="1" ppatt="1" fowon="1" pen="0" psec="0"
+               gb="9" dc="0" fpg="0" fps="0" fpa="0" fouls="0" clearm="7" cleara="7" turnover="4"
+               clockv="0" clockw="0" clockg="0" fviol="0"></lineprd>
+    </linescore>
+    <totals>
+      <shots g="12" a="9" sh="41" sog="26" freepos="0" shootout="0"></shots>
+      <goaltype gw="1" pp="2" sh="0" ua="3" fg="1" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="4" seconds="210" minor="1" major="3" match="0" rc="0" yc="0" gc="0" foul="0" clockv="0" clockw="0" clockg="0" fviol="2"></penalty>
+      <misc facewon="10" facelost="12" gb="33" dc="0" turnover="13" ct="12" minutes="599" seconds="60" dsave="0"></misc>
+      <goalie minutes="60:00" ga="7" saves="9" sf="27" savebyprd="4,2,1,2" sho="0" cbosho="0" ppg="1" shg="0" eng="0" sog="0"></goalie>
+      <powerplay ppg="2" ppopp="3"></powerplay>
+      <clear clearm="16" cleara="19"></clear>
+    </totals>
+    <player uni="0" name="Jake Peden" checkname="PEDEN,JAKE" class="SR" gp="1" gs="1" pos="d" code="0">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="1" seconds="60" minor="0" major="1" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="2" dc="0" turnover="1" ct="2" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="1" name="Alex Trippi" checkname="TRIPPI,ALEX" class="SO" gp="1" code="1">
+      <shots g="0" a="0" sh="1" sog="1" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="1" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="2" name="Jesse Cuccia" checkname="CUCCIA,JESSE" class="SR" gp="0" code="2"></player>
+    <player uni="3" name="William Perry" checkname="PERRY,WILLIAM" class="JR" gp="1" gs="1" pos="mf" code="3">
+      <shots g="3" a="1" sh="7" sog="5" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="3" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="1" dc="0" turnover="0" ct="0" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="4" name="Jack Halpert" checkname="HALPERT,JACK" class="SR" gp="1" code="4">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="2" dc="0" turnover="1" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="5" name="Nicky Solomon" checkname="SOLOMON,NICKY" class="FR" gp="1" gs="1" pos="a" code="5">
+      <shots g="2" a="0" sh="4" sog="4" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="1" ct="0" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="6" name="Mike Guerin" checkname="GUERIN,MIKE" class="JR" gp="0" code="6"></player>
+    <player uni="7" name="Zach Kissick" checkname="KISSICK,ZACH" class="JR" gp="0" code="7"></player>
+    <player uni="8" name="Jordan Prysko" checkname="PRYSKO,JORDAN" class="SR" gp="0" code="8"></player>
+    <player uni="9" name="Jacob Kelly" checkname="KELLY,JACOB" class="FR" gp="1" gs="1" pos="a" code="9">
+      <shots g="1" a="1" sh="5" sog="2" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="1" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="2" dc="0" turnover="2" ct="0" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="11" name="Luke Millican" checkname="MILLICAN,LUKE" class="SO" gp="0" code="11"></player>
+    <player uni="12" name="Andy Matthews" checkname="MATTHEWS,ANDY" class="SR" gp="1" gs="1" pos="a" code="12">
+      <shots g="3" a="1" sh="4" sog="3" freepos="0" shootout="0"></shots>
+      <goaltype gw="1" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="2" dc="0" turnover="0" ct="1" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="15" name="Timmy Kelly" checkname="KELLY,TIMMY" class="SR" gp="1" gs="1" pos="mf" code="15">
+      <shots g="1" a="1" sh="4" sog="2" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="1" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="2" dc="0" turnover="1" ct="0" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="16" name="Sean Morris" checkname="MORRIS,SEAN" class="SO" gp="0" code="16"></player>
+    <player uni="17" name="Ryan O'Connell" checkname="O'CONNELL,RYAN" class="SO" gp="0" code="17"></player>
+    <player uni="19" name="Brian Cameron" checkname="CAMERON,BRIAN" class="FR" gp="1" code="19">
+      <shots g="0" a="2" sh="1" sog="1" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="2" dc="0" turnover="1" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="20" name="Will Bowen" checkname="BOWEN,WILL" class="FR" gp="0" code="20"></player>
+    <player uni="21" name="Justin Anderson" checkname="ANDERSON,JUSTIN" class="JR" gp="1" gs="1" pos="mf" code="21">
+      <shots g="1" a="1" sh="4" sog="3" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="2" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="22" name="Jack Rowlett" checkname="ROWLETT,JACK" class="SR" gp="1" gs="1" pos="d" code="22">
+      <shots g="0" a="0" sh="1" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="3" dc="0" turnover="1" ct="1" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="23" name="Parker Alexander" checkname="ALEXANDER,PARKER" class="SO" gp="1" code="23">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="24" name="Ara Atayan" checkname="ATAYAN,ARA" class="SO" gp="1" code="24">
+      <shots g="0" a="1" sh="3" sog="1" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="25" name="Caton Johnson" checkname="JOHNSON,CATON" class="FR" gp="1" code="25">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="1" dc="0" turnover="0" ct="0" minutes="1" seconds="11" dsave="0"></misc>
+      <goalie gp="1" gs="0" minutes="1:11" ga="0" saves="0" sf="0" savebyprd="0,0,0,0" sho="0" cbosho="0" ppg="0" shg="0" eng="0" sog="0"></goalie>
+    </player>
+    <player uni="26" name="Charles Kelly" checkname="KELLY,CHARLES" class="SR" gp="0" code="26"></player>
+    <player uni="28" name="Cam Macri" checkname="MACRI,CAM" class="JR" gp="1" code="28">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="1" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="29" name="Patrick Lyons" checkname="LYONS,PATRICK" class="JR" gp="0" code="29"></player>
+    <player uni="30" name="Bailey Laidman" checkname="LAIDMAN,BAILEY" class="SO" gp="0" code="30"></player>
+    <player uni="31" name="Connor Maher" checkname="MAHER,CONNOR" class="FR" gp="1" code="31">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="1" seconds="60" minor="0" major="1" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="3" dc="0" turnover="0" ct="2" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="32" name="Matt Gavin" checkname="GAVIN,MATT" class="JR" gp="1" code="32">
+      <shots g="0" a="1" sh="2" sog="2" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="33" name="Kyle Kolwich" checkname="KOLWICH,KYLE" class="SO" gp="0" code="33"></player>
+    <player uni="34" name="Will Nicklaus" checkname="NICKLAUS,WILL" class="FR" gp="0" code="34"></player>
+    <player uni="35" name="Zachary Tucci" checkname="TUCCI,ZACHARY" class="FR" gp="1" code="35">
+      <shots g="0" a="0" sh="1" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc facewon="10" facelost="12" gb="4" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="36" name="Paddy Sheehan" checkname="SHEEHAN,PADDY" class="SR" gp="0" code="36"></player>
+    <player uni="37" name="Chris Nicholas" checkname="NICHOLAS,CHRIS" class="FR" gp="0" code="37"></player>
+    <player uni="39" name="Nate Miller" checkname="MILLER,NATE" class="SO" gp="0" code="39"></player>
+    <player uni="40" name="Cole Haverty" checkname="HAVERTY,COLE" class="SR" gp="1" code="40">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="1" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="41" name="Colin Munro" checkname="MUNRO,COLIN" class="SO" gp="0" code="41"></player>
+    <player uni="42" name="Jack Pezzulla" checkname="PEZZULLA,JACK" class="JR" gp="0" code="42"></player>
+    <player uni="43" name="Michael Nathan" checkname="NATHAN,MICHAEL" class="SR" gp="1" gs="1" pos="d" code="43">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="2" dc="0" turnover="1" ct="3" minutes="60" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="44" name="Henry Schertzinger" checkname="SCHERTZINGER,HENRY" class="FR" gp="0" code="44"></player>
+    <player uni="45" name="Ha. Schertzinger" checkname="SCHERTZINGER,HA" class="FR" gp="1" code="45">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="46" name="Alex Helms" checkname="HELMS,ALEX" class="SO" gp="0" code="46"></player>
+    <player uni="47" name="Kevin Gill" checkname="GILL,KEVIN" class="SO" gp="0" code="47"></player>
+    <player uni="48" name="Alex Bassil" checkname="BASSIL,ALEX" class="SR" gp="1" gs="1" pos="gk" code="48">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="1" seconds="60" minor="0" major="1" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="4" dc="0" turnover="0" ct="0" minutes="58" seconds="49" dsave="0"></misc>
+      <goalie gp="1" gs="1" minutes="58:49" ga="7" saves="9" sf="27" savebyprd="4,2,1,2" win="2-0" sho="0" cbosho="0" ppg="1" shg="0" eng="0" sog="0"></goalie>
+    </player>
+    <player uni="49" name="Matt McLaughlin" checkname="MCLAUGHLIN,MATT" class="SO" gp="0" code="49"></player>
+    <player uni="50" name="Kevin Walker" checkname="WALKER,KEVIN" class="SR" gp="1" code="50">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="52" name="Patrick Sasser" checkname="SASSER,PATRICK" class="SO" gp="0" code="52"></player>
+    <player uni="55" name="Cole Brown" checkname="BROWN,COLE" class="FR" gp="0" code="55"></player>
+    <player uni="66" name="Will Robbins" checkname="ROBBINS,WILL" class="FR" gp="0" code="66"></player>
+    <player uni="77" name="Tanner Cook" checkname="COOK,TANNER" class="JR" gp="1" code="77">
+      <shots g="1" a="0" sh="4" sog="2" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="1" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="1" dc="0" turnover="0" ct="1" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="88" name="Evan Egan" checkname="EGAN,EVAN" class="FR" gp="1" code="88">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="0" seconds="0" minor="0" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="1" dc="0" turnover="0" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+    <player uni="99" name="Tyler Seminetta" checkname="SEMINETTA,TYLER" class="JR" gp="0" code="99"></player>
+    <player uni="TM" name="TEAM" checkname="TEAM" class="" gp="1" code="TM">
+      <shots g="0" a="0" sh="0" sog="0" freepos="0" shootout="0"></shots>
+      <goaltype gw="0" pp="0" sh="0" ua="0" fg="0" ot="0" en="0" gt="0" freepos="0" shootout="0"></goaltype>
+      <penalty count="1" seconds="30" minor="1" major="0" match="0" rc="0" yc="0" gc="0" foul="0"></penalty>
+      <misc gb="0" dc="0" turnover="2" ct="0" minutes="0" seconds="0" dsave="0"></misc>
+    </player>
+  </team>
+  <scores>
+    <score number="1" vh="H" id="NC" prd="1" time="13:42" type="EV"
+           name="Jacob Kelly" seasong="8" assist1="Timmy Kelly" seasona1="9"></score>
+    <score number="2" vh="H" id="NC" prd="1" time="10:12" type="EV"
+           name="Justin Anderson" seasong="10" assist1="Andy Matthews" seasona1="12"></score>
+    <score number="3" vh="V" id="BUCKNELL" prd="1" time="07:31" type="PP"
+           name="Tarry, Alston" seasong="11" assist1="Malas, Reed" seasona1="7"></score>
+    <score number="4" vh="V" id="BUCKNELL" prd="1" time="06:55" type="EV"
+           name="Tarry, Alston" seasong="12" assist1="Fedorjaka, Matt" seasona1="5"></score>
+    <score number="5" vh="H" id="NC" prd="1" time="01:25" type="EV"
+           name="Andy Matthews" seasong="5" assist1="Matt Gavin" seasona1="1"></score>
+    <score number="6" vh="V" id="BUCKNELL" prd="2" time="11:59" type="EV"
+           name="Sopko, Tommy" seasong="9"></score>
+    <score number="7" vh="H" id="NC" prd="2" time="10:54" type="EV"
+           name="William Perry" seasong="14"></score>
+    <score number="8" vh="H" id="NC" prd="2" time="05:38" type="EV"
+           name="Andy Matthews" seasong="6" assist1="Brian Cameron" seasona1="1"></score>
+    <score number="9" vh="H" id="NC" prd="2" time="02:58" type="EV"
+           name="Nicky Solomon" seasong="9" assist1="Brian Cameron" seasona1="2"></score>
+    <score number="10" vh="V" id="BUCKNELL" prd="2" time="00:01" type="EV"
+           name="Tarry, Alston" seasong="13"></score>
+    <score number="11" vh="V" id="BUCKNELL" prd="3" time="10:41" type="EV"
+           name="Smith, Tom" seasong="5"></score>
+    <score number="12" vh="H" id="NC" prd="3" time="09:54" type="PP"
+           name="Tanner Cook" seasong="9" assist1="Justin Anderson" seasona1="4"></score>
+    <score number="13" vh="H" id="NC" prd="3" time="08:07" type="EV"
+           name="Andy Matthews" seasong="7" assist1="Ara Atayan" seasona1="3"></score>
+    <score number="14" vh="V" id="BUCKNELL" prd="3" time="03:00" type="EV"
+           name="Yorke, Will" seasong="15"></score>
+    <score number="15" vh="H" id="NC" prd="3" time="02:08" type="EV"
+           name="Nicky Solomon" seasong="10" assist1="Jacob Kelly" seasona1="4"></score>
+    <score number="16" vh="H" id="NC" prd="4" time="10:30" type="EV"
+           name="William Perry" seasong="15"></score>
+    <score number="17" vh="V" id="BUCKNELL" prd="4" time="07:19" type="EV"
+           name="Smith, Tom" seasong="6"></score>
+    <score number="18" vh="H" id="NC" prd="4" time="03:38" type="EV"
+           name="William Perry" seasong="16"></score>
+    <score number="19" vh="H" id="NC" prd="4" time="00:29" type="PP"
+           name="Timmy Kelly" seasong="7" assist1="William Perry" seasona1="3"></score>
+  </scores>
+  <penalties>
+    <pen number="1" vh="H" id="NC" prd="1" time="07:52" pp="Y" type="MAJOR" seconds="60" name="Connor Maher" abbrev="SL" desc="SLASHING"></pen>
+    <pen number="2" vh="H" id="NC" prd="1" time="04:23" pp="Y" type="MINOR" seconds="30" name="TEAM" abbrev="MANY" desc="TOO MANY PLAYERS"></pen>
+    <pen number="3" vh="H" id="NC" prd="3" time="13:48" pp="Y" type="MAJOR" seconds="60" name="Alex Bassil" abbrev="CCHK" desc="CROSS-CHECK"></pen>
+    <pen number="4" vh="V" id="BUCKNELL" prd="3" time="10:26" pp="Y" type="MAJOR" seconds="60" name="Talarico, Travis" abbrev="SL" desc="SLASHING"></pen>
+    <pen number="5" vh="V" id="BUCKNELL" prd="3" time="05:57" pp="Y" type="MAJOR" seconds="60" name="Delanois, Reed" abbrev="CCHK" desc="CROSS-CHECK"></pen>
+    <pen number="6" vh="H" id="NC" prd="3" time="01:41" pp="Y" type="MAJOR" seconds="60" name="Jake Peden" abbrev="BCHK" desc="ILLEGAL BODY CHECK"></pen>
+    <pen number="7" vh="V" id="BUCKNELL" prd="4" time="01:30" pp="Y" type="MAJOR" seconds="60" name="Newman, Hunter" abbrev="SL" desc="SLASHING"></pen>
+  </penalties>
+  <goaliechanges>
+    <goaliechange vh="V" id="BUCKNELL" prd="1" time="15:00" uni="13" name="Klipstein, Christian"></goaliechange>
+    <goaliechange vh="H" id="NC" prd="1" time="15:00" uni="48" name="Alex Bassil"></goaliechange>
+    <goaliechange vh="H" id="NC" prd="3" time="13:48" uni="25" name="Caton Johnson"></goaliechange>
+    <goaliechange vh="H" id="NC" prd="3" time="12:37" uni="48" name="Alex Bassil"></goaliechange>
+  </goaliechanges>
+  <plays format="summary">
+    <period number="1">
+      <play number="0" vh="V" team="BUCKNELL" clock="15:00" action="GOALIE" text="Klipstein, Christian at goalie for BUCKNELL."></play>
+      <play number="1" vh="H" team="NC" clock="15:00" action="GOALIE" text="Alex Bassil at goalie for NC."></play>
+      <play number="2" vh="H" team="NC" clock="15:00" action="FACE" text="Faceoff Witzal, Jarett vs Zachary Tucci won by NC, [15:00] Ground ball pickup by NC Connor Maher."></play>
+      <play number="3" vh="H" team="NC" clock="14:10" action="SHOT" text="Shot by NC Nicky Solomon, SAVE Klipstein, Christian."></play>
+      <play number="4" vh="V" team="BUCKNELL" clock="14:06" action="GB" text="Ground ball pickup by BUCKNELL Klipstein, Christian."></play>
+      <play number="5" vh="V" team="BUCKNELL" clock="14:04" action="CLEAR" text="Clear attempt by BUCKNELL failed."></play>
+      <play number="6" vh="V" team="BUCKNELL" clock="13:59" action="TURN" text="Turnover by BUCKNELL Landry, Brad (caused by Justin Anderson)."></play>
+      <play number="7" vh="H" team="NC" clock="13:42" action="SHOT" text="GOAL by NC Jacob Kelly (FIRST GOAL), Assist by Timmy Kelly, goal number 8 for season."></play>
+      <currentscore vscore="0" hscore="1"></currentscore>
+      <play number="8" vh="V" team="BUCKNELL" clock="13:42" action="FACE" text="Faceoff Witzal, Jarett vs Zachary Tucci won by BUCKNELL (on faceoff violation)."></play>
+      <play number="9" vh="V" team="BUCKNELL" clock="12:45" action="SHOT" text="Shot by BUCKNELL Malas, Reed, SAVE Alex Bassil."></play>
+      <play number="10" vh="H" team="NC" clock="12:40" action="GB" text="Ground ball pickup by NC Jack Rowlett."></play>
+      <play number="11" vh="H" team="NC" clock="12:38" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="12" vh="H" team="NC" clock="11:49" action="SHOT" text="Shot by NC Ara Atayan WIDE."></play>
+      <play number="13" vh="H" team="NC" clock="11:45" action="GB" text="Ground ball pickup by NC Andy Matthews."></play>
+      <play number="14" vh="H" team="NC" clock="11:39" action="SHOT" text="Shot by NC Alex Trippi, SAVE Klipstein, Christian."></play>
+      <play number="15" vh="V" team="BUCKNELL" clock="11:29" action="CLEAR" text="Clear attempt by BUCKNELL good."></play>
+      <play number="16" vh="V" team="BUCKNELL" clock="10:37" action="TURN" text="Turnover by BUCKNELL Durkin, Ryan (caused by Jack Rowlett)."></play>
+      <play number="17" vh="H" team="NC" clock="10:12" action="SHOT" text="GOAL by NC Justin Anderson, Assist by Andy Matthews, goal number 10 for season."></play>
+      <currentscore vscore="0" hscore="2"></currentscore>
+      <play number="18" vh="V" team="BUCKNELL" clock="10:12" action="TOUT" text="Timeout by BUCKNELL."></play>
+      <play number="19" vh="V" team="BUCKNELL" clock="10:12" action="FACE" text="Faceoff Witzal, Jarett vs Zachary Tucci won by BUCKNELL."></play>
+      <play number="20" vh="V" team="BUCKNELL" clock="09:03" action="SHOT" text="Shot by BUCKNELL Yorke, Will WIDE."></play>
+      <play number="21" vh="V" team="BUCKNELL" clock="08:40" action="TURN" text="Turnover by BUCKNELL Barkauskas, Matthew (caused by Connor Maher)."></play>
+      <play number="22" vh="H" team="NC" clock="08:35" action="GB" text="Ground ball pickup by NC Jake Peden."></play>
+      <play number="23" vh="H" team="NC" clock="08:33" action="CLEAR" text="Clear attempt by NC failed."></play>
+      <play number="24" vh="H" team="NC" clock="08:30" action="TURN" text="Turnover by NC Jake Peden (caused by Tarry, Alston)."></play>
+      <play number="25" vh="V" team="BUCKNELL" clock="08:23" action="GB" text="Ground ball pickup by BUCKNELL Boswell, Bryant."></play>
+      <play number="26" vh="V" team="BUCKNELL" clock="08:20" action="CLEAR" text="Clear attempt by BUCKNELL good."></play>
+      <play number="27" vh="V" team="BUCKNELL" clock="07:52" action="SHOT" text="Shot by BUCKNELL Yorke, Will, SAVE Alex Bassil."></play>
+      <play number="28" vh="H" team="NC" clock="07:52" action="PEN" text="Penalty on NC Connor Maher (SLASHING/1:00) Extra-man opportunity."></play>
+      <play number="29" vh="V" team="BUCKNELL" clock="07:31" action="SHOT" text="GOAL by BUCKNELL Tarry, Alston (MAN-UP), Assist by Malas, Reed, goal number 11 for season."></play>
+      <currentscore vscore="1" hscore="2"></currentscore>
+      <play number="30" vh="H" team="NC" clock="07:31" action="FACE" text="Faceoff Witzal, Jarett vs Zachary Tucci won by NC (on faceoff violation)."></play>
+      <play number="31" vh="H" team="NC" clock="07:07" action="SHOT" text="Shot by NC Timmy Kelly, SAVE Klipstein, Christian."></play>
+      <play number="32" vh="V" team="BUCKNELL" clock="06:58" action="GB" text="Ground ball pickup by BUCKNELL Yorke, Will."></play>
+      <play number="33" vh="V" team="BUCKNELL" clock="06:56" action="CLEAR" text="Clear attempt by BUCKNELL good."></play>
+      <play number="34" vh="V" team="BUCKNELL" clock="06:55" action="SHOT" text="GOAL by BUCKNELL Tarry, Alston, Assist by Fedorjaka, Matt, goal number 12 for season."></play>
+      <currentscore vscore="2" hscore="2"></currentscore>
+      <play number="35" vh="V" team="BUCKNELL" clock="06:55" action="FACE" text="Faceoff Witzal, Jarett vs Zachary Tucci won by BUCKNELL (on faceoff violation)."></play>
+      <play number="36" vh="V" team="BUCKNELL" clock="06:18" action="GB" text="Ground ball pickup by BUCKNELL Malas, Reed."></play>
+      <play number="37" vh="V" team="BUCKNELL" clock="06:03" action="TURN" text="Turnover by BUCKNELL Yorke, Will (caused by Michael Nathan)."></play>
+      <play number="38" vh="H" team="NC" clock="05:59" action="GB" text="Ground ball pickup by NC Connor Maher."></play>
+      <play number="39" vh="H" team="NC" clock="05:57" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="40" vh="H" team="NC" clock="05:12" action="SHOT" text="Shot by NC Ara Atayan, SAVE Klipstein, Christian."></play>
+      <play number="41" vh="V" team="BUCKNELL" clock="05:08" action="CLEAR" text="Clear attempt by BUCKNELL good."></play>
+      <play number="42" vh="V" team="BUCKNELL" clock="04:25" action="SHOT" text="Shot by BUCKNELL Tarry, Alston, SAVE Alex Bassil."></play>
+      <play number="43" vh="H" team="NC" clock="04:23" action="PEN" text="Penalty on NC TEAM (TOO MANY PLAYERS/0:30) Extra-man opportunity."></play>
+      <play number="44" vh="V" team="BUCKNELL" clock="04:08" action="SHOT" text="Shot by BUCKNELL Yorke, Will, SAVE Alex Bassil."></play>
+      <play number="45" vh="H" team="NC" clock="04:05" action="GB" text="Ground ball pickup by NC Alex Bassil."></play>
+      <play number="46" vh="H" team="NC" clock="04:01" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="47" vh="H" team="NC" clock="03:12" action="SHOT" text="Shot by NC Justin Anderson, SAVE Klipstein, Christian."></play>
+      <play number="48" vh="V" team="BUCKNELL" clock="03:08" action="GB" text="Ground ball pickup by BUCKNELL Klipstein, Christian."></play>
+      <play number="49" vh="V" team="BUCKNELL" clock="03:06" action="CLEAR" text="Clear attempt by BUCKNELL good."></play>
+      <play number="50" vh="V" team="BUCKNELL" clock="02:09" action="SHOT" text="Shot by BUCKNELL Malas, Reed BLOCKED."></play>
+      <play number="51" vh="V" team="BUCKNELL" clock="02:03" action="GB" text="Ground ball pickup by BUCKNELL Malas, Reed."></play>
+      <play number="52" vh="V" team="BUCKNELL" clock="01:48" action="TURN" text="Turnover by BUCKNELL."></play>
+      <play number="53" vh="H" team="NC" clock="01:35" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="54" vh="H" team="NC" clock="01:25" action="SHOT" text="GOAL by NC Andy Matthews, Assist by Matt Gavin, goal number 5 for season."></play>
+      <currentscore vscore="2" hscore="3"></currentscore>
+      <play number="55" vh="V" team="BUCKNELL" clock="01:25" action="FACE" text="Faceoff Witzal, Jarett vs Zachary Tucci won by BUCKNELL."></play>
+      <play number="56" clock="00:00" action="END-PRD" text="End-of-period."></play>
+    </period>
+    <period number="2">
+      <play number="57" clock="15:00" action="PRD" text=""></play>
+      <play number="58" vh="V" team="BUCKNELL" clock="15:00" action="FACE" text="Faceoff Witzal, Jarett vs Zachary Tucci won by BUCKNELL, [15:00] Ground ball pickup by BUCKNELL Talarico, Travis."></play>
+      <play number="59" vh="V" team="BUCKNELL" clock="13:40" action="GB" text="Ground ball pickup by BUCKNELL Malas, Reed."></play>
+      <play number="60" vh="V" team="BUCKNELL" clock="13:31" action="SHOT" text="Shot by BUCKNELL Durkin, Ryan, SAVE Alex Bassil."></play>
+      <play number="61" vh="V" team="BUCKNELL" clock="12:53" action="TURN" text="Turnover by BUCKNELL Smith, Tom (caused by Jake Peden)."></play>
+      <play number="62" vh="H" team="NC" clock="12:50" action="GB" text="Ground ball pickup by NC Jack Rowlett."></play>
+      <play number="63" vh="H" team="NC" clock="12:48" action="CLEAR" text="Clear attempt by NC failed."></play>
+      <play number="64" vh="H" team="NC" clock="12:47" action="TURN" text="Turnover by NC Jack Rowlett (caused by Yorke, Will)."></play>
+      <play number="65" vh="V" team="BUCKNELL" clock="12:43" action="GB" text="Ground ball pickup by BUCKNELL Malas, Reed."></play>
+      <play number="66" vh="V" team="BUCKNELL" clock="12:28" action="SHOT" text="Shot by BUCKNELL Yorke, Will WIDE."></play>
+      <play number="67" vh="V" team="BUCKNELL" clock="12:10" action="SHOT" text="Shot by BUCKNELL Smith, Tom HIGH."></play>
+      <play number="68" vh="V" team="BUCKNELL" clock="11:59" action="SHOT" text="GOAL by BUCKNELL Sopko, Tommy, goal number 9 for season."></play>
+      <currentscore vscore="3" hscore="3"></currentscore>
+      <play number="69" vh="H" team="NC" clock="11:59" action="FACE" text="Faceoff Witzal, Jarett vs Zachary Tucci won by NC, [11:59] Ground ball pickup by NC Brian Cameron."></play>
+      <play number="70" vh="H" team="NC" clock="10:54" action="SHOT" text="GOAL by NC William Perry, goal number 14 for season."></play>
+      <currentscore vscore="3" hscore="4"></currentscore>
+      <play number="71" vh="V" team="BUCKNELL" clock="10:54" action="FACE" text="Faceoff Witzal, Jarett vs Zachary Tucci won by BUCKNELL, [10:54] Ground ball pickup by BUCKNELL Witzal, Jarett."></play>
+      <play number="72" vh="V" team="BUCKNELL" clock="10:02" action="TURN" text="Turnover by BUCKNELL Malas, Reed."></play>
+      <play number="73" vh="H" team="NC" clock="10:01" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="74" vh="H" team="NC" clock="09:44" action="SHOT" text="Shot by NC Jack Rowlett HIGH."></play>
+      <play number="75" vh="H" team="NC" clock="09:39" action="TURN" text="Turnover by NC Jacob Kelly (caused by Wellington, Drew)."></play>
+      <play number="76" vh="V" team="BUCKNELL" clock="09:33" action="GB" text="Ground ball pickup by BUCKNELL Wellington, Drew."></play>
+      <play number="77" vh="V" team="BUCKNELL" clock="09:17" action="CLEAR" text="Clear attempt by BUCKNELL good."></play>
+      <play number="78" vh="V" team="BUCKNELL" clock="08:45" action="SHOT" text="Shot by BUCKNELL Sopko, Tommy, SAVE Alex Bassil."></play>
+      <play number="79" vh="V" team="BUCKNELL" clock="08:27" action="TURN" text="Turnover by BUCKNELL Smith, Tom (caused by Connor Maher)."></play>
+      <play number="80" vh="H" team="NC" clock="08:20" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="81" vh="H" team="NC" clock="07:40" action="SHOT" text="Shot by NC Timmy Kelly WIDE."></play>
+      <play number="82" vh="H" team="NC" clock="07:36" action="GB" text="Ground ball pickup by NC Andy Matthews."></play>
+      <play number="83" vh="H" team="NC" clock="07:34" action="SHOT" text="Shot by NC Justin Anderson WIDE."></play>
+      <play number="84" vh="H" team="NC" clock="07:10" action="TURN" text="Turnover by NC Brian Cameron (caused by Talarico, Travis)."></play>
+      <play number="85" vh="V" team="BUCKNELL" clock="07:06" action="GB" text="Ground ball pickup by BUCKNELL Talarico, Travis."></play>
+      <play number="86" vh="V" team="BUCKNELL" clock="07:03" action="CLEAR" text="Clear attempt by BUCKNELL failed."></play>
+      <play number="87" vh="V" team="BUCKNELL" clock="07:00" action="TURN" text="Turnover by BUCKNELL Landry, Brad (caused by Justin Anderson)."></play>
+      <play number="88" vh="H" team="NC" clock="06:56" action="GB" text="Ground ball pickup by NC William Perry."></play>
+      <play number="89" vh="H" team="NC" clock="06:29" action="SHOT" text="Shot by NC William Perry HIT POST."></play>
+      <play number="90" vh="H" team="NC" clock="05:51" action="SHOT" text="Shot by NC William Perry, SAVE Klipstein, Christian."></play>
+      <play number="91" vh="H" team="NC" clock="05:43" action="GB" text="Ground ball pickup by NC Timmy Kelly."></play>
+      <play number="92" vh="H" team="NC" clock="05:38" action="SHOT" text="GOAL by NC Andy Matthews, Assist by Brian Cameron, goal number 6 for season."></play>
+      <currentscore vscore="3" hscore="5"></currentscore>
+      <play number="93" vh="H" team="NC" clock="05:38" action="FACE" text="Faceoff Witzal, Jarett vs Zachary Tucci won by NC, [05:38] Ground ball pickup by NC Jack Halpert."></play>
+      <play number="94" vh="H" team="NC" clock="05:21" action="TURN" text="Turnover by NC Jack Halpert (caused by Witzal, Jarett)."></play>
+      <play number="95" vh="V" team="BUCKNELL" clock="05:18" action="GB" text="Ground ball pickup by BUCKNELL Yorke, Will."></play>
+      <play number="96" vh="V" team="BUCKNELL" clock="05:15" action="SHOT" text="Shot by BUCKNELL Yorke, Will WIDE."></play>
+      <play number="97" vh="V" team="BUCKNELL" clock="04:22" action="TURN" text="Turnover by BUCKNELL Yorke, Will."></play>
+      <play number="98" vh="V" team="BUCKNELL" clock="04:23" action="TOUT" text="Timeout by BUCKNELL."></play>
+      <play number="99" vh="H" team="NC" clock="03:52" action="SHOT" text="Shot by NC Ara Atayan WIDE."></play>
+      <play number="100" vh="H" team="NC" clock="03:25" action="SHOT" text="Shot by NC Brian Cameron, SAVE Klipstein, Christian."></play>
+      <play number="101" vh="V" team="BUCKNELL" clock="03:22" action="GB" text="Ground ball pickup by BUCKNELL Wellington, Drew."></play>
+      <play number="102" vh="V" team="BUCKNELL" clock="03:18" action="CLEAR" text="Clear attempt by BUCKNELL failed."></play>
+      <play number="103" vh="V" team="BUCKNELL" clock="03:11" action="TURN" text="Turnover by BUCKNELL Landry, Brad."></play>
+      <play number="104" vh="H" team="NC" clock="03:08" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="105" vh="H" team="NC" clock="03:01" action="SHOT" text="Shot by NC William Perry WIDE."></play>
+      <play number="106" vh="H" team="NC" clock="03:00" action="GB" text="Ground ball pickup by NC Brian Cameron."></play>
+      <play number="107" vh="H" team="NC" clock="02:58" action="SHOT" text="GOAL by NC Nicky Solomon, Assist by Brian Cameron, goal number 9 for season."></play>
+      <currentscore vscore="3" hscore="6"></currentscore>
+      <play number="108" vh="H" team="NC" clock="02:58" action="FACE" text="Faceoff Witzal, Jarett vs Zachary Tucci won by NC, [02:58] Ground ball pickup by NC Zachary Tucci."></play>
+      <play number="109" vh="H" team="NC" clock="01:34" action="TURN" text="Turnover by NC."></play>
+      <play number="110" vh="V" team="BUCKNELL" clock="01:31" action="CLEAR" text="Clear attempt by BUCKNELL failed."></play>
+      <play number="111" vh="V" team="BUCKNELL" clock="01:16" action="TURN" text="Turnover by BUCKNELL Tarry, Alston (caused by Michael Nathan)."></play>
+      <play number="112" vh="H" team="NC" clock="01:10" action="GB" text="Ground ball pickup by NC Evan Egan."></play>
+      <play number="113" vh="H" team="NC" clock="01:00" action="TURN" text="Turnover by NC Cam Macri (caused by Boswell, Bryant)."></play>
+      <play number="114" vh="V" team="BUCKNELL" clock="00:49" action="GB" text="Ground ball pickup by BUCKNELL Boswell, Bryant."></play>
+      <play number="115" vh="V" team="BUCKNELL" clock="00:47" action="CLEAR" text="Clear attempt by BUCKNELL good."></play>
+      <play number="116" vh="V" team="BUCKNELL" clock="00:09" action="GB" text="Ground ball pickup by BUCKNELL Smith, Tom."></play>
+      <play number="117" vh="V" team="BUCKNELL" clock="00:01" action="SHOT" text="GOAL by BUCKNELL Tarry, Alston, goal number 13 for season."></play>
+      <currentscore vscore="4" hscore="6"></currentscore>
+      <play number="118" clock="00:00" action="END-PRD" text="End-of-period."></play>
+    </period>
+    <period number="3">
+      <play number="119" clock="15:00" action="PRD" text=""></play>
+      <play number="120" vh="V" team="BUCKNELL" clock="15:00" action="FACE" text="Faceoff Witzal, Jarett vs Zachary Tucci won by BUCKNELL, [15:00] Ground ball pickup by BUCKNELL Delanois, Reed."></play>
+      <play number="121" vh="V" team="BUCKNELL" clock="14:43" action="TURN" text="Turnover by BUCKNELL Delanois, Reed (caused by Andy Matthews)."></play>
+      <play number="122" vh="H" team="NC" clock="14:14" action="SHOT" text="Shot by NC William Perry, SAVE Klipstein, Christian."></play>
+      <play number="123" vh="V" team="BUCKNELL" clock="14:10" action="GB" text="Ground ball pickup by BUCKNELL Fedorjaka, Matt."></play>
+      <play number="124" vh="V" team="BUCKNELL" clock="14:07" action="CLEAR" text="Clear attempt by BUCKNELL good."></play>
+      <play number="125" vh="H" team="NC" clock="13:48" action="PEN" text="Penalty on NC Alex Bassil (CROSS-CHECK/1:00) Extra-man opportunity."></play>
+      <play number="126" vh="H" team="NC" clock="13:48" action="GOALIE" text="Caton Johnson at goalie for NC."></play>
+      <play number="127" vh="V" team="BUCKNELL" clock="13:20" action="TURN" text="Turnover by BUCKNELL Sopko, Tommy."></play>
+      <play number="128" vh="H" team="NC" clock="13:16" action="GB" text="Ground ball pickup by NC Caton Johnson."></play>
+      <play number="129" vh="H" team="NC" clock="13:09" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="130" vh="H" team="NC" clock="12:37" action="GOALIE" text="Alex Bassil at goalie for NC."></play>
+      <play number="131" vh="H" team="NC" clock="12:22" action="SHOT" text="Shot by NC Timmy Kelly WIDE."></play>
+      <play number="132" vh="H" team="NC" clock="11:56" action="TURN" text="Turnover by NC."></play>
+      <play number="133" vh="V" team="BUCKNELL" clock="11:51" action="CLEAR" text="Clear attempt by BUCKNELL good."></play>
+      <play number="134" vh="V" team="BUCKNELL" clock="10:41" action="SHOT" text="GOAL by BUCKNELL Smith, Tom, goal number 5 for season."></play>
+      <currentscore vscore="5" hscore="6"></currentscore>
+      <play number="135" vh="H" team="NC" clock="10:41" action="FACE" text="Faceoff Witzal, Jarett vs Zachary Tucci won by NC, [10:41] Ground ball pickup by NC Zachary Tucci."></play>
+      <play number="136" vh="H" team="NC" clock="10:27" action="SHOT" text="Shot by NC Zachary Tucci HIGH."></play>
+      <play number="137" vh="V" team="BUCKNELL" clock="10:26" action="PEN" text="Penalty on BUCKNELL Talarico, Travis (SLASHING/1:00) Extra-man opportunity."></play>
+      <play number="138" vh="H" team="NC" clock="09:54" action="SHOT" text="GOAL by NC Tanner Cook (MAN-UP), Assist by Justin Anderson, goal number 9 for season."></play>
+      <currentscore vscore="5" hscore="7"></currentscore>
+      <play number="139" vh="H" team="NC" clock="09:54" action="FACE" text="Faceoff Witzal, Jarett vs Zachary Tucci won by NC, [09:54] Ground ball pickup by NC Zachary Tucci."></play>
+      <play number="140" vh="H" team="NC" clock="09:46" action="SHOT" text="Shot by NC Jacob Kelly WIDE."></play>
+      <play number="141" vh="H" team="NC" clock="09:16" action="SHOT" text="Shot by NC Matt Gavin, SAVE Klipstein, Christian."></play>
+      <play number="142" vh="H" team="NC" clock="09:00" action="GB" text="Ground ball pickup by NC Jacob Kelly."></play>
+      <play number="143" vh="H" team="NC" clock="08:07" action="SHOT" text="GOAL by NC Andy Matthews, Assist by Ara Atayan, goal number 7 for season."></play>
+      <currentscore vscore="5" hscore="8"></currentscore>
+      <play number="144" vh="V" team="BUCKNELL" clock="08:07" action="FACE" text="Faceoff Witzal, Jarett vs Zachary Tucci won by BUCKNELL."></play>
+      <play number="145" vh="V" team="BUCKNELL" clock="07:22" action="SHOT" text="Shot by BUCKNELL Smith, Tom HIT POST."></play>
+      <play number="146" vh="V" team="BUCKNELL" clock="07:18" action="GB" text="Ground ball pickup by BUCKNELL Durkin, Ryan."></play>
+      <play number="147" vh="V" team="BUCKNELL" clock="07:17" action="SHOT" text="Shot by BUCKNELL Durkin, Ryan WIDE."></play>
+      <play number="148" vh="H" team="NC" clock="07:13" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="149" vh="H" team="NC" clock="06:44" action="SHOT" text="Shot by NC Jacob Kelly WIDE."></play>
+      <play number="150" vh="V" team="BUCKNELL" clock="05:57" action="PEN" text="Penalty on BUCKNELL Delanois, Reed (CROSS-CHECK/1:00) Extra-man opportunity."></play>
+      <play number="151" vh="H" team="NC" clock="05:03" action="SHOT" text="Shot by NC Tanner Cook, SAVE Klipstein, Christian."></play>
+      <play number="152" vh="V" team="BUCKNELL" clock="04:55" action="CLEAR" text="Clear attempt by BUCKNELL failed."></play>
+      <play number="153" vh="V" team="BUCKNELL" clock="04:45" action="TURN" text="Turnover by BUCKNELL Fedorjaka, Matt (caused by Michael Nathan)."></play>
+      <play number="154" vh="H" team="NC" clock="04:41" action="GB" text="Ground ball pickup by NC Timmy Kelly."></play>
+      <play number="155" vh="H" team="NC" clock="03:56" action="SHOT" text="Shot by NC Tanner Cook WIDE."></play>
+      <play number="156" vh="V" team="BUCKNELL" clock="03:52" action="TOUT" text="Timeout by BUCKNELL."></play>
+      <play number="157" vh="H" team="NC" clock="03:38" action="SHOT" text="Shot by NC Jacob Kelly WIDE."></play>
+      <play number="158" vh="H" team="NC" clock="03:31" action="SHOT" text="Shot by NC Jacob Kelly, SAVE Klipstein, Christian."></play>
+      <play number="159" vh="V" team="BUCKNELL" clock="03:24" action="CLEAR" text="Clear attempt by BUCKNELL good."></play>
+      <play number="160" vh="V" team="BUCKNELL" clock="03:00" action="SHOT" text="GOAL by BUCKNELL Yorke, Will, goal number 15 for season."></play>
+      <currentscore vscore="6" hscore="8"></currentscore>
+      <play number="161" vh="H" team="NC" clock="03:00" action="FACE" text="Faceoff Witzal, Jarett vs Zachary Tucci won by NC, [03:00] Ground ball pickup by NC Zachary Tucci."></play>
+      <play number="162" vh="H" team="NC" clock="02:47" action="GB" text="Ground ball pickup by NC Connor Maher."></play>
+      <play number="163" vh="H" team="NC" clock="02:08" action="SHOT" text="GOAL by NC Nicky Solomon, Assist by Jacob Kelly, goal number 10 for season."></play>
+      <currentscore vscore="6" hscore="9"></currentscore>
+      <play number="164" vh="H" team="NC" clock="02:08" action="FACE" text="Faceoff Witzal, Jarett vs Zachary Tucci won by NC, [02:08] Ground ball pickup by NC Jake Peden."></play>
+      <play number="165" vh="H" team="NC" clock="01:45" action="SHOT" text="Shot by NC Nicky Solomon, SAVE Klipstein, Christian."></play>
+      <play number="166" vh="V" team="BUCKNELL" clock="01:42" action="GB" text="Ground ball pickup by BUCKNELL Klipstein, Christian."></play>
+      <play number="167" vh="H" team="NC" clock="01:41" action="PEN" text="Penalty on NC Jake Peden (ILLEGAL BODY CHECK/1:00) Extra-man opportunity."></play>
+      <play number="168" vh="V" team="BUCKNELL" clock="00:57" action="SHOT" text="Shot by BUCKNELL Durkin, Ryan WIDE."></play>
+      <play number="169" vh="V" team="BUCKNELL" clock="00:50" action="SHOT" text="Shot by BUCKNELL Yorke, Will HIGH."></play>
+      <play number="170" vh="V" team="BUCKNELL" clock="00:21" action="SHOT" text="Shot by BUCKNELL Yorke, Will, SAVE Alex Bassil."></play>
+      <play number="171" vh="H" team="NC" clock="00:18" action="GB" text="Ground ball pickup by NC Michael Nathan."></play>
+      <play number="172" vh="H" team="NC" clock="00:17" action="CLEAR" text="Clear attempt by NC failed."></play>
+      <play number="173" vh="H" team="NC" clock="00:16" action="TURN" text="Turnover by NC Michael Nathan (caused by Durkin, Ryan)."></play>
+      <play number="174" clock="00:00" action="END-PRD" text="End-of-period."></play>
+    </period>
+    <period number="4">
+      <play number="175" clock="15:00" action="PRD" text=""></play>
+      <play number="176" vh="V" team="BUCKNELL" clock="15:00" action="FACE" text="Faceoff Witzal, Jarett vs Zachary Tucci won by BUCKNELL, [15:00] Ground ball pickup by BUCKNELL Witzal, Jarett."></play>
+      <play number="177" vh="V" team="BUCKNELL" clock="14:52" action="SHOT" text="Shot by BUCKNELL Witzal, Jarett BLOCKED."></play>
+      <play number="178" vh="H" team="NC" clock="14:46" action="GB" text="Ground ball pickup by NC Alex Bassil."></play>
+      <play number="179" vh="H" team="NC" clock="14:31" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="180" vh="H" team="NC" clock="14:08" action="TURN" text="Turnover by NC Timmy Kelly (caused by Klipstein, Christian)."></play>
+      <play number="181" vh="V" team="BUCKNELL" clock="14:04" action="GB" text="Ground ball pickup by BUCKNELL Wellington, Drew."></play>
+      <play number="182" vh="V" team="BUCKNELL" clock="13:59" action="CLEAR" text="Clear attempt by BUCKNELL good."></play>
+      <play number="183" vh="V" team="BUCKNELL" clock="13:20" action="SHOT" text="Shot by BUCKNELL Tarry, Alston, SAVE Alex Bassil."></play>
+      <play number="184" vh="H" team="NC" clock="13:16" action="GB" text="Ground ball pickup by NC Alex Bassil."></play>
+      <play number="185" vh="H" team="NC" clock="13:13" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="186" vh="H" team="NC" clock="12:58" action="SHOT" text="Shot by NC Tanner Cook WIDE."></play>
+      <play number="187" vh="H" team="NC" clock="12:31" action="TURN" text="Turnover by NC Alex Trippi (caused by Delanois, Reed)."></play>
+      <play number="188" vh="V" team="BUCKNELL" clock="12:25" action="GB" text="Ground ball pickup by BUCKNELL Delanois, Reed."></play>
+      <play number="189" vh="V" team="BUCKNELL" clock="12:23" action="CLEAR" text="Clear attempt by BUCKNELL failed."></play>
+      <play number="190" vh="V" team="BUCKNELL" clock="12:11" action="TURN" text="Turnover by BUCKNELL Delanois, Reed."></play>
+      <play number="191" vh="H" team="NC" clock="12:03" action="GB" text="Ground ball pickup by NC Michael Nathan."></play>
+      <play number="192" vh="H" team="NC" clock="12:00" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="193" vh="H" team="NC" clock="11:12" action="SHOT" text="Shot by NC Justin Anderson, SAVE Klipstein, Christian."></play>
+      <play number="194" vh="V" team="BUCKNELL" clock="11:08" action="CLEAR" text="Clear attempt by BUCKNELL failed."></play>
+      <play number="195" vh="V" team="BUCKNELL" clock="10:57" action="TURN" text="Turnover by BUCKNELL Landry, Brad (caused by Tanner Cook)."></play>
+      <play number="196" vh="H" team="NC" clock="10:52" action="GB" text="Ground ball pickup by NC Tanner Cook."></play>
+      <play number="197" vh="H" team="NC" clock="10:30" action="SHOT" text="GOAL by NC William Perry, goal number 15 for season."></play>
+      <currentscore vscore="6" hscore="10"></currentscore>
+      <play number="198" vh="H" team="NC" clock="10:30" action="FACE" text="Faceoff Witzal, Jarett vs Zachary Tucci won by NC (on faceoff violation)."></play>
+      <play number="199" vh="H" team="NC" clock="10:01" action="SHOT" text="Shot by NC Matt Gavin, SAVE Klipstein, Christian."></play>
+      <play number="200" vh="V" team="BUCKNELL" clock="09:56" action="CLEAR" text="Clear attempt by BUCKNELL good."></play>
+      <play number="201" vh="V" team="BUCKNELL" clock="09:34" action="TURN" text="Turnover by BUCKNELL Fedorjaka, Matt."></play>
+      <play number="202" vh="H" team="NC" clock="09:31" action="GB" text="Ground ball pickup by NC Jack Halpert."></play>
+      <play number="203" vh="H" team="NC" clock="09:23" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="204" vh="H" team="NC" clock="09:16" action="TURN" text="Turnover by NC Nicky Solomon (caused by Delanois, Reed)."></play>
+      <play number="205" vh="V" team="BUCKNELL" clock="09:15" action="GB" text="Ground ball pickup by BUCKNELL Delanois, Reed."></play>
+      <play number="206" vh="V" team="BUCKNELL" clock="09:01" action="CLEAR" text="Clear attempt by BUCKNELL good."></play>
+      <play number="207" vh="V" team="BUCKNELL" clock="08:42" action="TURN" text="Turnover by BUCKNELL Tarry, Alston."></play>
+      <play number="208" vh="H" team="NC" clock="08:36" action="SHOT" text="Shot by NC Andy Matthews BLOCKED."></play>
+      <play number="209" vh="V" team="BUCKNELL" clock="08:31" action="GB" text="Ground ball pickup by BUCKNELL Talarico, Travis."></play>
+      <play number="210" vh="V" team="BUCKNELL" clock="08:28" action="CLEAR" text="Clear attempt by BUCKNELL good."></play>
+      <play number="211" vh="V" team="BUCKNELL" clock="07:19" action="SHOT" text="GOAL by BUCKNELL Smith, Tom, goal number 6 for season."></play>
+      <currentscore vscore="7" hscore="10"></currentscore>
+      <play number="212" vh="V" team="BUCKNELL" clock="07:19" action="FACE" text="Faceoff Witzal, Jarett vs Zachary Tucci won by BUCKNELL."></play>
+      <play number="213" vh="V" team="BUCKNELL" clock="06:17" action="SHOT" text="Shot by BUCKNELL Yorke, Will HIGH."></play>
+      <play number="214" vh="H" team="NC" clock="06:14" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="215" vh="H" team="NC" clock="05:43" action="GB" text="Ground ball pickup by NC Jacob Kelly."></play>
+      <play number="216" vh="H" team="NC" clock="04:56" action="TURN" text="Turnover by NC Jacob Kelly (caused by Wellington, Drew)."></play>
+      <play number="217" vh="V" team="BUCKNELL" clock="04:52" action="GB" text="Ground ball pickup by BUCKNELL Wellington, Drew."></play>
+      <play number="218" vh="V" team="BUCKNELL" clock="04:49" action="CLEAR" text="Clear attempt by BUCKNELL good."></play>
+      <play number="219" vh="V" team="BUCKNELL" clock="04:10" action="TURN" text="Turnover by BUCKNELL Sopko, Tommy (caused by Jake Peden)."></play>
+      <play number="220" vh="H" team="NC" clock="04:06" action="GB" text="Ground ball pickup by NC Alex Bassil."></play>
+      <play number="221" vh="H" team="NC" clock="04:04" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="222" vh="H" team="NC" clock="03:38" action="SHOT" text="GOAL by NC William Perry, goal number 16 for season."></play>
+      <currentscore vscore="7" hscore="11"></currentscore>
+      <play number="223" vh="V" team="BUCKNELL" clock="03:38" action="FACE" text="Faceoff Witzal, Jarett vs Zachary Tucci won by BUCKNELL."></play>
+      <play number="224" vh="V" team="BUCKNELL" clock="02:50" action="SHOT" text="Shot by BUCKNELL Durkin, Ryan, SAVE Alex Bassil."></play>
+      <play number="225" vh="H" team="NC" clock="02:43" action="GB" text="Ground ball pickup by NC Jack Rowlett."></play>
+      <play number="226" vh="H" team="NC" clock="02:38" action="CLEAR" text="Clear attempt by NC good."></play>
+      <play number="227" vh="V" team="BUCKNELL" clock="01:30" action="PEN" text="Penalty on BUCKNELL Newman, Hunter (SLASHING/1:00) Extra-man opportunity."></play>
+      <play number="228" vh="H" team="NC" clock="00:29" action="SHOT" text="GOAL by NC Timmy Kelly (MAN-UP), Assist by William Perry, goal number 7 for season."></play>
+      <currentscore vscore="7" hscore="12"></currentscore>
+      <play number="229" vh="V" team="BUCKNELL" clock="00:29" action="FACE" text="Faceoff Witzal, Jarett vs Zachary Tucci won by BUCKNELL."></play>
+      <play number="230" vh="V" team="BUCKNELL" clock="00:22" action="TOUT" text="Timeout by BUCKNELL."></play>
+      <play number="231" vh="V" team="BUCKNELL" clock="00:06" action="TURN" text="Turnover by BUCKNELL Tarry, Alston."></play>
+      <play number="232" vh="H" team="NC" clock="00:00" action="GB" text="Ground ball pickup by NC Cole Haverty."></play>
+      <play number="233" clock="00:00" action="END-PRD" text="End-of-period."></play>
+      <currentscore vscore="7" hscore="12"></currentscore>
+    </period>
+  </plays>
+</lcgame>
