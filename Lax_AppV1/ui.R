@@ -23,12 +23,18 @@ shinyUI(
                plotOutput('Shot.map'),
                tableOutput("Shot.map.data"),
                tableOutput("Shot.map.player.data")
-               # DT::dataTableOutput('Shot.data')
              ))),
    
     tabPanel('Face Off Map', 
-             plotOutput('FO.map'), 
-             DT::dataTableOutput('FO.data')),
+             sidebarLayout(
+               sidebarPanel(selectInput("FO.Map.Team.Select", h3("Team"), 
+                                        choices = list("UNC", "Duke", "UVA"), selected = "UNC"),
+                            selectInput("FO.Map.Player.Select", h3("Player"), choices = "")),
+               mainPanel(
+                 plotOutput('FO.map'),
+                 tableOutput("FO.map.data"),
+                 tableOutput("FO.map.player.data")
+               ))),
     
     tabPanel('Goal Map', 
              plotOutput('Goal.map'), 
