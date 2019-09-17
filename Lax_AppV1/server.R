@@ -11,7 +11,26 @@ library(shiny)
 
 # Define server logic required to draw a histogram
 shinyServer(function(input, output, session) {
-   output$Shot.map <- renderPlot(
+   
+  shot.count.func<-reactive({
+    Shot.data %>%
+      filter(Name == input$Shot.Map.Player.Select) %>%  
+      group_by(Name, `Shot Location`) %>%
+      summarise(`%`=n()) %>%
+      ungroup() %>%
+      spread(`Shot Location`, `%`, fill=0)
+  })
+  
+  shot.prob.func <- reactive ({
+    Shot.data %>%
+      filter(Name == input$Shot.Map.Player.Select) %>%
+      group_by(Name, `Shot Location`) %>%
+      summarise(`Prob` = sum(Goal)/n()) %>%
+      ungroup() %>%
+      spread(`Shot Location`, `Prob`, fill=0)
+  })
+  
+  output$Shot.map <- renderPlot(
      ggplot() +
        theme(axis.title.x=element_blank(),
              axis.text.x=element_blank(),
@@ -37,7 +56,8 @@ shinyServer(function(input, output, session) {
        geom_segment(mapping = aes(x=1, xend=4, y=3, yend=3), lty=2) +
        geom_segment(mapping = aes(x=2, xend=2, y=1, yend=4), lty=2) +
        geom_segment(mapping = aes(x=3, xend=3, y=1, yend=4), lty=2) +
-       geom_label(mapping = aes(x=1.5, y=3.5), label = "A") +
+       geom_label(mapping = aes(x=1.5, y=3.8), label = "A") +
+       geom_label(mapping = aes(x=1.5, y=3.3), label = as.character(paste("Shots:",shot.count.func()[2], "\n", "%:",round(shot.prob.func()[2], digits = 3)*100))) +
        geom_label(mapping = aes(x=1.5, y=2.5), label = "D") +
        geom_label(mapping = aes(x=1.5, y=1.5), label = "G") +
        geom_label(mapping = aes(x=2.5, y=3.5), label = "B") +
@@ -47,16 +67,26 @@ shinyServer(function(input, output, session) {
        geom_label(mapping = aes(x=2.5, y=2.5), label = "E") +
        geom_label(mapping = aes(x=2.5, y=1.5), label = "H")
    )
-   # output$Shot.data <- renderDataTable(datatable(Shot.data, options = list(searching = F, paging = F)))
    output$Shot.map.data <- renderTable (
-     Shot.data[Shot.data$Team==input$Shot.Map.Team.Select, c(3, 4)]
+     unique(Shot.data[Shot.data$Team==input$Shot.Map.Team.Select, c(3, 7)])
    )
    observe({
      Team = input$Shot.Map.Team.Select
      updateSelectInput(session, "Shot.Map.Player.Select", choices = Shot.data[Shot.data$Team==input$Shot.Map.Team.Select, 3])
    })
-   output$Shot.map.player.data <- renderTable(
-     Shot.data[Shot.data$Name==input$Shot.Map.Player.Select, ]
+   output$Shot.map.player.data1 <- renderTable(
+     shot.prob.func()
+   )
+   output$Shot.Prob.Title <- renderText(
+     "Shot Probability Table"
+   )
+   output$Shot.Dist.Title <- renderText(
+     "Shot Distribution Table"
+   )
+   
+   output$Shot.map.player.data2 <- renderTable(
+      shot.count.func() %>%
+        mutate(Total=rowSums(shot.count.func()[,-1]))
    )
    output$FO.map <- renderPlot(
      ggplot() +
@@ -114,9 +144,48 @@ shinyServer(function(input, output, session) {
    output$FO.map.player.data = renderTable(
      FO.data[FO.data$Name == input$FO.Map.Player.Select, ]
    )
-   
+   output$Goal.map <- renderPlot(
+     ggplot() +
+       theme(axis.title.x=element_blank(),
+             axis.text.x=element_blank(),
+             axis.ticks.x=element_blank(),
+             axis.ticks.y=element_blank(),
+             axis.title.y=element_blank(),
+             axis.text.y=element_blank(),
+             panel.grid.major = element_blank(),
+             panel.grid.minor = element_blank(),
+             legend.title = element_blank()) +
+       geom_segment(mapping = aes(x=-1, y=1, xend=1, yend=1), size=5) + #top
+       geom_segment(mapping = aes(x=-1, y=1.403, xend=-1, yend=-20), size=6) + #left
+       geom_segment(mapping = aes(x=1, y=1.403, xend=1, yend=-20), size=6) + #right
+       geom_segment(mapping = aes(x=-1, xend=1, y=-13.5, yend=-13.5), lty=2) +
+       geom_segment(mapping = aes(x=-1, xend=1, y=-6.5, yend=-6.5), lty=2) + 
+       geom_segment(mapping = aes(x=-.333, xend=-.333, y=1.4, yend=-20), lty=2) +
+       geom_segment(mapping = aes(x=.333, xend=.333, y=1.4, yend=-20), lty=2) +
+       geom_label(mapping = aes(x=-.666, y=-2.5), label="A") +
+       geom_label(mapping = aes(x=0, y=-2.5), label="B") +
+       geom_label(mapping = aes(x=.666, y=-2.5), label="C") +
+       geom_label(mapping = aes(x=-.666, y=-10), label="D") +
+       geom_label(mapping = aes(x=0, y=-10), label="E") +
+       geom_label(mapping = aes(x=.666, y=-10), label="F") +
+       geom_label(mapping = aes(x=-.666, y=-17.5), label="G") +
+       geom_label(mapping = aes(x=0, y=-17.5), label="H") +
+       geom_label(mapping = aes(x=.666, y=-17.5), label="I") +
+       xlim(-2, 2)
+   )
+   output$Goal.map.data <- renderTable(
+     Goal.data[Goal.data$Team == input$Goal.Map.Team.Select, c(2, 3)]
+   )
+   observe({
+     Team = input$Goal.Map.Team.Select
+     updateSelectInput(session, "Goal.Map.Player.Select", choices = Goal.data[Goal.data$Team == input$Goal.Map.Team.Select, 2])
+   })
+   output$Goal.map.player.data = renderTable(
+     Goal.data[Goal.data$Name == input$Goal.Map.Player.Select, ]
+   )
 })
    
-   
-   
+
+
+
    

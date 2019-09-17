@@ -22,7 +22,10 @@ shinyUI(
              mainPanel(
                plotOutput('Shot.map'),
                tableOutput("Shot.map.data"),
-               tableOutput("Shot.map.player.data")
+               textOutput('Shot.Prob.Title'),
+               tableOutput('Shot.map.player.data1'),
+               textOutput('Shot.Dist.Title'), 
+               tableOutput('Shot.map.player.data2')
              ))),
    
     tabPanel('Face Off Map', 
@@ -37,13 +40,21 @@ shinyUI(
                ))),
     
     tabPanel('Goal Map', 
-             plotOutput('Goal.map'), 
-             DT::dataTableOutput('goal.data')),
+             sidebarLayout(
+               sidebarPanel(selectInput("Goal.Map.Team.Select", h3("Team"), 
+                                        choices = list("UNC", "Duke", "UVA"), selected = "UNC"),
+                            selectInput("Goal.Map.Player.Select", h3("Player"), choices = "")),
+               mainPanel(
+                 plotOutput('Goal.map'),
+                 tableOutput("Goal.map.data"),
+                 tableOutput("Goal.map.player.data")
+             ))),
     
     tabPanel('UNC Team Data', 
              DT::dataTableOutput('unc.data')),
     
-    tabPanel('Oponent Data',  
+    tabPanel('Opponent Data',  
              DT::dataTableOutput('opp.data'))
   )
 )
+
