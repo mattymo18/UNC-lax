@@ -1,24 +1,16 @@
-#
-# This is the server logic of a Shiny web application. You can run the 
-# application by clicking 'Run App' above.
-#
-# Find out more about building applications with Shiny here:
-# 
-#    http://shiny.rstudio.com/
-#
-
-library(shiny)
-
-# Define server logic required to draw a histogram
 shinyServer(function(input, output, session) {
-   
-  shot.count.func<-reactive({
+############################################################## Shot Map ####################################################
+  Shot.data$`Shot Location` <- factor(Shot.data$`Shot Location`)
+  levels(Shot.data$`Shot Location`) <- c(levels(Shot.data$`Shot Location`), "G", "H", "I")
+  
+
+  shot.count.func <- reactive({
     Shot.data %>%
       filter(Name == input$Shot.Map.Player.Select) %>%  
       group_by(Name, `Shot Location`) %>%
-      summarise(`%`=n()) %>%
+      summarise(`c` = n()) %>%
       ungroup() %>%
-      spread(`Shot Location`, `%`, fill=0)
+      spread(`Shot Location`, `c`, fill=0, drop = F)
   })
   
   shot.prob.func <- reactive ({
@@ -27,7 +19,7 @@ shinyServer(function(input, output, session) {
       group_by(Name, `Shot Location`) %>%
       summarise(`Prob` = sum(Goal)/n()) %>%
       ungroup() %>%
-      spread(`Shot Location`, `Prob`, fill=0)
+      spread(`Shot Location`, `Prob`, fill=0, drop = F)
   })
   
   output$Shot.map <- renderPlot(
@@ -56,30 +48,34 @@ shinyServer(function(input, output, session) {
        geom_segment(mapping = aes(x=1, xend=4, y=3, yend=3), lty=2) +
        geom_segment(mapping = aes(x=2, xend=2, y=1, yend=4), lty=2) +
        geom_segment(mapping = aes(x=3, xend=3, y=1, yend=4), lty=2) +
-       geom_label(mapping = aes(x=1.5, y=3.8), label = "A") +
-       geom_label(mapping = aes(x=1.5, y=3.3), label = as.character(paste("Shots:",shot.count.func()[2], "\n", "%:",round(shot.prob.func()[2], digits = 3)*100))) +
-       geom_label(mapping = aes(x=1.5, y=2.5), label = "D") +
-       geom_label(mapping = aes(x=1.5, y=1.5), label = "G") +
-       geom_label(mapping = aes(x=2.5, y=3.5), label = "B") +
-       geom_label(mapping = aes(x=3.5, y=3.5), label = "C") +
-       geom_label(mapping = aes(x=3.5, y=2.5), label = "F") +
-       geom_label(mapping = aes(x=3.5, y=1.5), label = "I") +
-       geom_label(mapping = aes(x=2.5, y=2.5), label = "E") +
-       geom_label(mapping = aes(x=2.5, y=1.5), label = "H")
+       geom_label(mapping = aes(x=1.5, y=3.5), label = as.character(paste("A", "\n", "Shots:",shot.count.func()[2], "\n", "%:",round(shot.prob.func()[2], digits = 3)*100))) +
+       geom_label(mapping = aes(x=1.5, y=2.5), label = as.character(paste("D", "\n", "Shots:",shot.count.func()[5], "\n", "%:",round(shot.prob.func()[5], digits = 3)*100))) +
+       geom_label(mapping = aes(x=1.5, y=1.5), label = as.character(paste("G", "\n", "Shots:",shot.count.func()[8], "\n", "%:",round(shot.prob.func()[8], digits = 3)*100))) +
+       geom_label(mapping = aes(x=2.5, y=3.5), label = as.character(paste("B", "\n", "Shots:",shot.count.func()[3], "\n", "%:",round(shot.prob.func()[3], digits = 3)*100))) +
+       geom_label(mapping = aes(x=3.5, y=3.5), label = as.character(paste("C", "\n", "Shots:",shot.count.func()[4], "\n", "%:",round(shot.prob.func()[4], digits = 3)*100))) +
+       geom_label(mapping = aes(x=3.5, y=2.5), label = as.character(paste("F", "\n", "Shots:",shot.count.func()[7], "\n", "%:",round(shot.prob.func()[7], digits = 3)*100))) +
+       geom_label(mapping = aes(x=3.5, y=1.5), label = as.character(paste("I", "\n", "Shots:",shot.count.func()[10], "\n", "%:",round(shot.prob.func()[10], digits = 3)*100))) +
+       geom_label(mapping = aes(x=2.5, y=2.5), label = as.character(paste("E", "\n", "Shots:",shot.count.func()[6], "\n", "%:",round(shot.prob.func()[6], digits = 3)*100))) +
+       geom_label(mapping = aes(x=2.5, y=1.5), label = as.character(paste("H", "\n", "Shots:",shot.count.func()[9], "\n", "%:",round(shot.prob.func()[9], digits = 3)*100)))
    )
+  
    output$Shot.map.data <- renderTable (
      unique(Shot.data[Shot.data$Team==input$Shot.Map.Team.Select, c(3, 7)])
    )
+   
    observe({
      Team = input$Shot.Map.Team.Select
      updateSelectInput(session, "Shot.Map.Player.Select", choices = Shot.data[Shot.data$Team==input$Shot.Map.Team.Select, 3])
    })
+   
    output$Shot.map.player.data1 <- renderTable(
      shot.prob.func()
    )
+   
    output$Shot.Prob.Title <- renderText(
      "Shot Probability Table"
    )
+   
    output$Shot.Dist.Title <- renderText(
      "Shot Distribution Table"
    )
@@ -88,6 +84,29 @@ shinyServer(function(input, output, session) {
       shot.count.func() %>%
         mutate(Total=rowSums(shot.count.func()[,-1]))
    )
+  ######################################################## FO Map ###################################################### 
+   
+   FO.data$`GB Location` <- factor(FO.data$`GB Location`)
+   levels(FO.data$`GB Location`) <- c(levels(FO.data$`GB Location`), "G", "H", "I")
+   
+   FO.count.func <- reactive ({
+     FO.data %>% 
+       filter(Name == input$FO.Map.Player.Select) %>% 
+       group_by(Name, `GB Location`) %>% 
+       summarise(`c` = n()) %>% 
+       ungroup() %>% 
+       spread(`GB Location`, `c`, fill=0, drop = F)
+   })
+   
+   FO.prob.func <- reactive ({
+     FO.data %>% 
+       filter(Name == input$FO.Map.Player.Select) %>% 
+       group_by(Name, `GB Location`) %>% 
+       summarise(`Prob` = sum(`Fogo GB`)/n()) %>% 
+       ungroup() %>% 
+       spread(`GB Location`, `Prob`, fill=0, drop = F)
+   })
+   
    output$FO.map <- renderPlot(
      ggplot() +
        theme(axis.title.x=element_blank(),
@@ -134,16 +153,32 @@ shinyServer(function(input, output, session) {
        geom_label(mapping = aes(x=2.75, y=3.1), label="H") +
        scale_shape_manual(values=c(1,5))
    )
+   
    output$FO.map.data <- renderTable(
-     FO.data[FO.data$Team == input$FO.Map.Team.Select, c(2, 3)]
+     unique(FO.data[FO.data$Team == input$FO.Map.Team.Select, c(2, 3)])
    )
+   
    observe({
      Team = input$FO.Map.Team.Select
      updateSelectInput(session, "FO.Map.Player.Select", choices = FO.data[FO.data$Team == input$FO.Map.Team.Select, 2])
    })
-   output$FO.map.player.data = renderTable(
-     FO.data[FO.data$Name == input$FO.Map.Player.Select, ]
+   
+   output$FO.map.player.data1 <- renderTable(
+    FO.prob.func() 
    )
+   
+   output$FO.Prob.Title <- renderText(
+     "FO Probability Table"
+   )
+   
+   output$FO.Dist.Title <- renderText(
+     "FO Distribution Table"
+   )
+   
+   output$FO.map.player.data2 <- renderTable(
+     FO.count.func() 
+   )
+   ######################################################### Goal Map ###############################################################
    output$Goal.map <- renderPlot(
      ggplot() +
        theme(axis.title.x=element_blank(),
@@ -173,16 +208,20 @@ shinyServer(function(input, output, session) {
        geom_label(mapping = aes(x=.666, y=-17.5), label="I") +
        xlim(-2, 2)
    )
+   
    output$Goal.map.data <- renderTable(
      Goal.data[Goal.data$Team == input$Goal.Map.Team.Select, c(2, 3)]
    )
+   
    observe({
      Team = input$Goal.Map.Team.Select
      updateSelectInput(session, "Goal.Map.Player.Select", choices = Goal.data[Goal.data$Team == input$Goal.Map.Team.Select, 2])
    })
+   
    output$Goal.map.player.data = renderTable(
      Goal.data[Goal.data$Name == input$Goal.Map.Player.Select, ]
    )
+   
 })
    
 
