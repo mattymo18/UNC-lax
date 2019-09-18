@@ -1,9 +1,11 @@
 shinyServer(function(input, output, session) {
-############################################################## Shot Map ####################################################
+############################################# Shot Map ############################################# 
+  
+  ############ Data Manipulation ############ 
   Shot.data$`Shot Location` <- factor(Shot.data$`Shot Location`)
   levels(Shot.data$`Shot Location`) <- c(levels(Shot.data$`Shot Location`), "G", "H", "I")
   
-
+  ############ Functions ############ 
   shot.count.func <- reactive({
     Shot.data %>%
       filter(Name == input$Shot.Map.Player.Select) %>%  
@@ -22,6 +24,13 @@ shinyServer(function(input, output, session) {
       spread(`Shot Location`, `Prob`, fill=0, drop = F)
   })
   
+  ############ Selector Reactivity ############ 
+  observe({
+    Team = input$Shot.Map.Team.Select
+    updateSelectInput(session, "Shot.Map.Player.Select", choices = Shot.data[Shot.data$Team==input$Shot.Map.Team.Select, 3])
+  })
+  
+  ############ Main Plot ############ 
   output$Shot.map <- renderPlot(
      ggplot() +
        theme(axis.title.x=element_blank(),
@@ -59,36 +68,37 @@ shinyServer(function(input, output, session) {
        geom_label(mapping = aes(x=2.5, y=1.5), label = as.character(paste("H", "\n", "Shots:",shot.count.func()[9], "\n", "%:",round(shot.prob.func()[9], digits = 3)*100)))
    )
   
+  ############ Player Overview Table ############ 
    output$Shot.map.data <- renderTable (
      unique(Shot.data[Shot.data$Team==input$Shot.Map.Team.Select, c(3, 7)])
    )
-   
-   observe({
-     Team = input$Shot.Map.Team.Select
-     updateSelectInput(session, "Shot.Map.Player.Select", choices = Shot.data[Shot.data$Team==input$Shot.Map.Team.Select, 3])
-   })
-   
-   output$Shot.map.player.data1 <- renderTable(
-     shot.prob.func()
-   )
-   
+  
+  ############ Shot Probility Table ############ 
    output$Shot.Prob.Title <- renderText(
      "Shot Probability Table"
    )
    
+   output$Shot.map.player.data.prob <- renderTable(
+     shot.prob.func()
+   )
+   
+   ############ Shot Distribution Table ############ 
    output$Shot.Dist.Title <- renderText(
      "Shot Distribution Table"
    )
    
-   output$Shot.map.player.data2 <- renderTable(
+   output$Shot.map.player.data.count <- renderTable(
       shot.count.func() %>%
         mutate(Total=rowSums(shot.count.func()[,-1]))
    )
-  ######################################################## FO Map ###################################################### 
    
+############################################# FO Map ############################################# 
+   
+   ############ Data Manipulation ############ 
    FO.data$`GB Location` <- factor(FO.data$`GB Location`)
    levels(FO.data$`GB Location`) <- c(levels(FO.data$`GB Location`), "G", "H", "I")
    
+   ############ Functions ############ 
    FO.count.func <- reactive ({
      FO.data %>% 
        filter(Name == input$FO.Map.Player.Select) %>% 
@@ -107,6 +117,13 @@ shinyServer(function(input, output, session) {
        spread(`GB Location`, `Prob`, fill=0, drop = F)
    })
    
+   ############ Selector Reactivity ############ 
+   observe({
+     Team = input$FO.Map.Team.Select
+     updateSelectInput(session, "FO.Map.Player.Select", choices = FO.data[FO.data$Team == input$FO.Map.Team.Select, 2])
+   })
+   
+   ############ Main Plot ############ 
    output$FO.map <- renderPlot(
      ggplot() +
        theme(axis.title.x=element_blank(),
@@ -154,31 +171,30 @@ shinyServer(function(input, output, session) {
        scale_shape_manual(values=c(1,5))
    )
    
+   ############ Player Overview Table ############ 
    output$FO.map.data <- renderTable(
      unique(FO.data[FO.data$Team == input$FO.Map.Team.Select, c(2, 3)])
    )
    
-   observe({
-     Team = input$FO.Map.Team.Select
-     updateSelectInput(session, "FO.Map.Player.Select", choices = FO.data[FO.data$Team == input$FO.Map.Team.Select, 2])
-   })
-   
-   output$FO.map.player.data1 <- renderTable(
-    FO.prob.func() 
-   )
-   
+   ############ FO Probability Table ############ 
    output$FO.Prob.Title <- renderText(
      "FO Probability Table"
    )
    
+   output$FO.map.player.data.prob <- renderTable(
+    FO.prob.func() 
+   )
+   
+   ############ FO Distribution Table ############ 
    output$FO.Dist.Title <- renderText(
      "FO Distribution Table"
    )
    
-   output$FO.map.player.data2 <- renderTable(
+   output$FO.map.player.data.count <- renderTable(
      FO.count.func() 
    )
-   ######################################################### Goal Map ###############################################################
+   
+   ############################################# Goal Map ############################################# 
    output$Goal.map <- renderPlot(
      ggplot() +
        theme(axis.title.x=element_blank(),

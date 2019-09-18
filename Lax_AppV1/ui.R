@@ -10,9 +10,9 @@ shinyUI(
                plotOutput('Shot.map'),
                tableOutput('Shot.map.data'),
                textOutput('Shot.Prob.Title'),
-               tableOutput('Shot.map.player.data1'),
+               tableOutput('Shot.map.player.data.prob'),
                textOutput('Shot.Dist.Title'), 
-               tableOutput('Shot.map.player.data2')
+               tableOutput('Shot.map.player.data.count')
              ))),
    
     tabPanel('Face Off Map', 
@@ -24,9 +24,9 @@ shinyUI(
                  plotOutput('FO.map'),
                  tableOutput('FO.map.data'),
                  textOutput('FO.Prob.Title'),
-                 tableOutput("FO.map.player.data1"),
+                 tableOutput("FO.map.player.data.prob"),
                  textOutput('FO.Dist.Title'),
-                 tableOutput('FO.map.player.data2')
+                 tableOutput('FO.map.player.data.count')
                ))),
     
     tabPanel('Goal Map', 
