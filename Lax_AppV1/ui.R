@@ -37,7 +37,10 @@ shinyUI(
                mainPanel(
                  plotOutput('Goal.map'),
                  tableOutput("Goal.map.data"),
-                 tableOutput("Goal.map.player.data")
+                 textOutput('Goal.Prob.Title'), 
+                 tableOutput("Goal.map.player.data.prob"), 
+                 textOutput('Goal.Dist.Title'), 
+                 tableOutput('Goal.map.player.data.count')
              ))),
     
     tabPanel('UNC Team Data', 
