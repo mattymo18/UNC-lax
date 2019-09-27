@@ -1,10 +1,10 @@
-shinyUI(
+shinyUI=fluidPage(theme = shinytheme("cerulean"),
   navbarPage(
     title = 'Menu',
     tabPanel('Shot Map',
              sidebarLayout(
                sidebarPanel(selectInput("Shot.Map.Team.Select", h3("Team"), 
-                                        choices = list("UNC", "Duke", "UVA"), selected = "UNC"),
+                                        choices = unique(Shot.data$Team), selected = "UNC"),
                             selectInput("Shot.Map.Player.Select", h3("Player"), choices = "")),
              mainPanel(
                plotOutput('Shot.map'),
@@ -18,13 +18,13 @@ shinyUI(
     tabPanel('Face Off Map', 
              sidebarLayout(
                sidebarPanel(selectInput("FO.Map.Team.Select", h3("Team"), 
-                                        choices = list("UNC", "Duke", "UVA"), selected = "UNC"),
+                                        choices = unique(FO.data$Team), selected = "UNC"),
                             selectInput("FO.Map.Player.Select", h3("Player"), choices = "")),
                mainPanel(
                  plotOutput('FO.map'),
                  tableOutput('FO.map.data'),
                  textOutput('FO.Prob.Title'),
-                 tableOutput("FO.map.player.data.prob"),
+                 tableOutput('FO.map.player.data.prob'),
                  textOutput('FO.Dist.Title'),
                  tableOutput('FO.map.player.data.count')
                ))),
@@ -32,22 +32,29 @@ shinyUI(
     tabPanel('Goal Map', 
              sidebarLayout(
                sidebarPanel(selectInput("Goal.Map.Team.Select", h3("Team"), 
-                                        choices = list("UNC", "Duke", "UVA"), selected = "UNC"),
+                                        choices = unique(Goal.data$Team), selected = "UNC"),
                             selectInput("Goal.Map.Player.Select", h3("Player"), choices = "")),
                mainPanel(
                  plotOutput('Goal.map'),
-                 tableOutput("Goal.map.data"),
+                 tableOutput('Goal.map.data'),
                  textOutput('Goal.Prob.Title'), 
-                 tableOutput("Goal.map.player.data.prob"), 
+                 tableOutput('Goal.map.player.data.prob'), 
                  textOutput('Goal.Dist.Title'), 
                  tableOutput('Goal.map.player.data.count')
              ))),
     
     tabPanel('UNC Team Data', 
-             DT::dataTableOutput('unc.data')),
+             sidebarLayout(
+               sidebarPanel(selectInput("Goal.Map.Team.Select", h3("Team"), 
+                                        choices = unique(Goal.data$Team), selected = "UNC"),
+                            selectInput("Goal.Map.Player.Select", h3("Player"), choices = "")),
+               mainPanel(
+                 tableOutput('Total.Shot')
+               ))), 
     
     tabPanel('Opponent Data',  
              DT::dataTableOutput('opp.data'))
   )
 )
+
 

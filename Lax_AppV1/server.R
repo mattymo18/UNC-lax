@@ -60,7 +60,7 @@ shinyServer(function(input, output, session) {
        geom_label(mapping = aes(x=1.5, y=3.5), label = as.character(paste("A", "\n", "Shots:",shot.count.func()[2], "\n", "%:",round(shot.prob.func()[2], digits = 3)*100))) +
        geom_label(mapping = aes(x=1.5, y=2.5), label = as.character(paste("D", "\n", "Shots:",shot.count.func()[5], "\n", "%:",round(shot.prob.func()[5], digits = 3)*100))) +
        geom_label(mapping = aes(x=1.5, y=1.5), label = as.character(paste("G", "\n", "Shots:",shot.count.func()[8], "\n", "%:",round(shot.prob.func()[8], digits = 3)*100))) +
-       geom_label(mapping = aes(x=2.5, y=3.5), label = as.character(paste("B", "\n", "Shots:",shot.count.func()[3], "\n", "%:",round(shot.prob.func()[3], digits = 3)*100))) +
+       geom_label(mapping = aes(x=2.5, y=3.35), size = 3.5, label = as.character(paste("B", "\n", "Shots:",shot.count.func()[3], "\n", "%:",round(shot.prob.func()[3], digits = 3)*100))) +
        geom_label(mapping = aes(x=3.5, y=3.5), label = as.character(paste("C", "\n", "Shots:",shot.count.func()[4], "\n", "%:",round(shot.prob.func()[4], digits = 3)*100))) +
        geom_label(mapping = aes(x=3.5, y=2.5), label = as.character(paste("F", "\n", "Shots:",shot.count.func()[7], "\n", "%:",round(shot.prob.func()[7], digits = 3)*100))) +
        geom_label(mapping = aes(x=3.5, y=1.5), label = as.character(paste("I", "\n", "Shots:",shot.count.func()[10], "\n", "%:",round(shot.prob.func()[10], digits = 3)*100))) +
@@ -96,7 +96,7 @@ shinyServer(function(input, output, session) {
    
    ############ Data Manipulation ############ 
    FO.data$`GB Location` <- factor(FO.data$`GB Location`)
-   levels(FO.data$`GB Location`) <- c("A", "B", "C", "D", "E", "F", "G", "H", "I")
+   levels(FO.data$`GB Location`) <- c("A", "B", "C", "D", "E", "F", "G", "H")
    
    ############ Functions ############ 
    FO.count.func <- reactive ({
@@ -202,25 +202,6 @@ shinyServer(function(input, output, session) {
    levels(Goal.data$`Shot Location`) <-  c("A", "B", "C", "D", "E", "F", "G", "H", "I")
    
    ############ Functions ############ 
-   
-    # FO.count.func <- reactive ({
-   #   FO.data %>% 
-   #     filter(Name == input$FO.Map.Player.Select) %>% 
-   #     group_by(Name, `GB Location`) %>% 
-   #     summarise(`c` = n()) %>% 
-   #     ungroup() %>% 
-   #     spread(`GB Location`, `c`, fill=0, drop = F)
-   # })
-   # 
-   # FO.prob.func <- reactive ({
-   #   FO.data %>% 
-   #     filter(Name == input$FO.Map.Player.Select) %>% 
-   #     group_by(Name, `GB Location`) %>% 
-   #     summarise(`Prob` = sum(`Fogo GB`)/n()) %>% 
-   #     ungroup() %>% 
-   #     spread(`GB Location`, `Prob`, fill=0, drop = F)
-   # })
-   
    Goal.count.func <- reactive ({
      Goal.data %>% 
        filter(Name == input$Goal.Map.Player.Select) %>% 
@@ -264,15 +245,15 @@ shinyServer(function(input, output, session) {
        geom_segment(mapping = aes(x=-1, xend=1, y=-6.5, yend=-6.5), lty=2) + 
        geom_segment(mapping = aes(x=-.333, xend=-.333, y=1.32, yend=-20), lty=2) +
        geom_segment(mapping = aes(x=.333, xend=.333, y=1.32, yend=-20), lty=2) +
-       geom_label(mapping = aes(x=-.666, y=-2.5), label="A") +
-       geom_label(mapping = aes(x=0, y=-2.5), label="B") +
-       geom_label(mapping = aes(x=.666, y=-2.5), label="C") +
-       geom_label(mapping = aes(x=-.666, y=-10), label="D") +
-       geom_label(mapping = aes(x=0, y=-10), label="E") +
-       geom_label(mapping = aes(x=.666, y=-10), label="F") +
-       geom_label(mapping = aes(x=-.666, y=-17.5), label="G") +
-       geom_label(mapping = aes(x=0, y=-17.5), label="H") +
-       geom_label(mapping = aes(x=.666, y=-17.5), label="I") +
+       geom_label(mapping = aes(x=-.666, y=-2.5), label= as.character(paste("A", "\n", "Count:", Goal.count.func()[2], "\n", "%:", round(Goal.prob.func()[2], digits = 3)*100))) +
+       geom_label(mapping = aes(x=0, y=-2.5), label=as.character(paste("B", "\n", "Count:", Goal.count.func()[3], "\n", "%:", round(Goal.prob.func()[3], digits = 3)*100))) +
+       geom_label(mapping = aes(x=.666, y=-2.5), label=as.character(paste("C", "\n", "Count:", Goal.count.func()[4], "\n", "%:", round(Goal.prob.func()[4], digits = 3)*100))) +
+       geom_label(mapping = aes(x=-.666, y=-10), label=as.character(paste("D", "\n", "Count:", Goal.count.func()[5], "\n", "%:", round(Goal.prob.func()[5], digits = 3)*100))) +
+       geom_label(mapping = aes(x=0, y=-10), label=as.character(paste("E", "\n", "Count:", Goal.count.func()[6], "\n", "%:", round(Goal.prob.func()[6], digits = 3)*100))) +
+       geom_label(mapping = aes(x=.666, y=-10), label=as.character(paste("F", "\n", "Count:", Goal.count.func()[7], "\n", "%:", round(Goal.prob.func()[7], digits = 3)*100))) +
+       geom_label(mapping = aes(x=-.666, y=-17.5), label=as.character(paste("G", "\n", "Count:", Goal.count.func()[8], "\n", "%:", round(Goal.prob.func()[8], digits = 3)*100))) +
+       geom_label(mapping = aes(x=0, y=-17.5), label=as.character(paste("H", "\n", "Count:", Goal.count.func()[9], "\n", "%:", round(Goal.prob.func()[9], digits = 3)*100))) +
+       geom_label(mapping = aes(x=.666, y=-17.5), label=as.character(paste("I", "\n", "Count:", Goal.count.func()[10], "\n", "%:", round(Goal.prob.func()[10], digits = 3)*100))) +
        xlim(-2, 2), 
      width = 500
    )
@@ -300,4 +281,12 @@ shinyServer(function(input, output, session) {
      Goal.count.func() %>% 
        mutate("Total" = rowSums(Goal.count.func()[,-1]))
    )
+   
+############################################# UNC Data ############################################# 
+   
+   ############ Table ############
+   # output$Total.Shot <- renderTable(
+   #   #Need to build a cool summary table using group by and summarise for each player,
+   # )
+   
 })
