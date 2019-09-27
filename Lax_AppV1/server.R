@@ -74,19 +74,11 @@ shinyServer(function(input, output, session) {
    )
   
   ############ Shot Probility Table ############ 
-   output$Shot.Prob.Title <- renderText(
-     "Shot Probability Table"
-   )
-   
    output$Shot.map.player.data.prob <- renderTable(
      shot.prob.func()
    )
    
    ############ Shot Distribution Table ############ 
-   output$Shot.Dist.Title <- renderText(
-     "Shot Distribution Table"
-   )
-   
    output$Shot.map.player.data.count <- renderTable(
       shot.count.func() %>%
         mutate(Total=rowSums(shot.count.func()[,-1]))
@@ -177,19 +169,11 @@ shinyServer(function(input, output, session) {
    )
    
    ############ FO Probability Table ############ 
-   output$FO.Prob.Title <- renderText(
-     "FO Probability Table"
-   )
-   
    output$FO.map.player.data.prob <- renderTable(
     FO.prob.func() 
    )
    
    ############ FO Distribution Table ############ 
-   output$FO.Dist.Title <- renderText(
-     "FO Distribution Table"
-   )
-   
    output$FO.map.player.data.count <- renderTable(
      FO.count.func() %>% 
        mutate("Total" = rowSums(FO.count.func()[,-1]))
@@ -264,19 +248,11 @@ shinyServer(function(input, output, session) {
    )
    
    ############ Goal Probability Table ############
-   output$`Goal.Prob.Title` <- renderText(
-     "Save Probability Table"
-   )
-   
    output$Goal.map.player.data.prob <- renderTable(
      Goal.prob.func()
    )
   
    ############ Goal Distribution Table ############
-   output$Goal.Dist.Title <- renderText(
-     "Save Distribution Table"
-   )
-   
    output$Goal.map.player.data.count <-  renderTable(
      Goal.count.func() %>% 
        mutate("Total" = rowSums(Goal.count.func()[,-1]))

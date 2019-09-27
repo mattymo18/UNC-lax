@@ -9,9 +9,9 @@ shinyUI=fluidPage(theme = shinytheme("cerulean"),
              mainPanel(
                plotOutput('Shot.map'),
                tableOutput('Shot.map.data'),
-               textOutput('Shot.Prob.Title'),
+               h4('Shot Probability Table'),
                tableOutput('Shot.map.player.data.prob'),
-               textOutput('Shot.Dist.Title'), 
+               h4('Shot Distribution Table'), 
                tableOutput('Shot.map.player.data.count')
              ))),
    
@@ -23,9 +23,9 @@ shinyUI=fluidPage(theme = shinytheme("cerulean"),
                mainPanel(
                  plotOutput('FO.map'),
                  tableOutput('FO.map.data'),
-                 textOutput('FO.Prob.Title'),
+                 h4('Faceoff Probability Table'),
                  tableOutput('FO.map.player.data.prob'),
-                 textOutput('FO.Dist.Title'),
+                 h4('Faceoff Distribution Table'),
                  tableOutput('FO.map.player.data.count')
                ))),
     
@@ -37,9 +37,9 @@ shinyUI=fluidPage(theme = shinytheme("cerulean"),
                mainPanel(
                  plotOutput('Goal.map'),
                  tableOutput('Goal.map.data'),
-                 textOutput('Goal.Prob.Title'), 
+                 h4('Save Probability Table'), 
                  tableOutput('Goal.map.player.data.prob'), 
-                 textOutput('Goal.Dist.Title'), 
+                 h4('Goal Distribution Table'), 
                  tableOutput('Goal.map.player.data.count')
              ))),
     
