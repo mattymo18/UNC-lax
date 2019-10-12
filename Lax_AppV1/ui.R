@@ -39,17 +39,19 @@ shinyUI=fluidPage(theme = shinytheme("cerulean"),
                  tableOutput('Goal.map.data'),
                  h4('Save Probability Table'), 
                  tableOutput('Goal.map.player.data.prob'), 
-                 h4('Goal Distribution Table'), 
+                 h4('Save Distribution Table'), 
                  tableOutput('Goal.map.player.data.count')
              ))),
     
     tabPanel('UNC Team Data', 
              sidebarLayout(
-               sidebarPanel(selectInput("Goal.Map.Team.Select", h3("Team"), 
-                                        choices = unique(Goal.data$Team), selected = "UNC"),
-                            selectInput("Goal.Map.Player.Select", h3("Player"), choices = "")),
+               sidebarPanel(selectInput("Role.Select", h3("Role"), 
+                                        choices = c("Goalie", "Fogo", "Offense")),
+                            selectInput("Player.Select", h3("Player"), choices = "")),
+                                        
                mainPanel(
-                 tableOutput('Total.Shot')
+                 h4('Player Summary Table'),
+                 tableOutput('Player.Summary')
                ))), 
     
     tabPanel('Opponent Data',  

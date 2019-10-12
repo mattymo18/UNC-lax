@@ -260,9 +260,31 @@ shinyServer(function(input, output, session) {
    
 ############################################# UNC Data ############################################# 
    
-   ############ Table ############
-   # output$Total.Shot <- renderTable(
-   #   #Need to build a cool summary table using group by and summarise for each player,
-   # )
+   ############ Selector Reactivity ############ 
+   observe({
+     Role = input$Role.Select
+     updateSelectInput(session, "Player.Select", 
+                       choices = if (input$Role.Select == "Goalie"){
+                         unique(Goal.UNC$Name)
+                       } else if (input$Role.Select == "Fogo") {
+                         unique(FO.UNC$Name)
+                       } else {
+                         unique(Shot.UNC$Name)
+                       })
+   }) 
+   
+   ############ Tables ############
+   
+   ##### Player Summary Table #####
+   output$Player.Summary <- renderTable(
+     if (input$Role.Select == "Goalie"){
+       unique(Goal.UNC[Goal.UNC$Name == input$Player.Select, c(1:4)]) %>% 
+         mutate(`Save %` = sum(Goal.UNC$Save[Goal.UNC$Name == input$Player.Select])/nrow(Goal.UNC[Goal.UNC$Name == input$Player.Select, ])*100)
+     } else if (input$Role.Select == "Fogo") {
+       unique(FO.UNC[FO.UNC$Name == input$Player.Select, c(1:3)])
+     } else {
+       unique(Shot.UNC[Shot.UNC$Name == input$Player.Select, c(1:3)]) %>% 
+         mutate(`Shot %` = sum(Shot.UNC$Goal[Shot.UNC$Name == input$Player.Select])/nrow(Shot.UNC[Shot.UNC$Name == input$Player.Select, ])*100)
+     })
    
 })
